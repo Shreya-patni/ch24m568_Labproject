@@ -1,0 +1,1985 @@
+Folder PATH listing for volume Windows
+Volume serial number is C2B8-B281
+C:.
+¦   .dvcignore
+¦   buffer_data.json
+¦   dockerfile
+¦   main.py
+¦   mlflow.db
+¦   mlruns.db
+¦   project_structure.txt
+¦   README.md
+¦   requirement.txt
+¦   test.py
+¦   Untitled.ipynb
+¦   _input_format.txt
+¦   
++---.dvc
+¦       .gitignore
+¦       config
+¦       
++---.ipynb_checkpoints
+¦       Untitled-checkpoint.ipynb
+¦       
++---.vscode
+¦       settings.json
+¦       
++---artifacts
+¦   +---0
+¦       +---06adb38dd6ae42a08f48b3183d468dfb
+¦       ¦   +---artifacts
+¦       ¦           confusion_matrix_LinearSVC.png
+¦       ¦           evaluation_report_LinearSVC.json
+¦       ¦           
+¦       +---08baa6befbb5406e9a72e436cda0fef1
+¦       ¦   +---artifacts
+¦       ¦           confusion_matrix_RandomForestClassifier.png
+¦       ¦           evaluation_report_RandomForestClassifier.json
+¦       ¦           
+¦       +---0e581b95da484aea9b8ae35fd3e1e569
+¦       ¦   +---artifacts
+¦       ¦           confusion_matrix_LogisticRegression.png
+¦       ¦           evaluation_report_LogisticRegression.json
+¦       ¦           
+¦       +---117c01546bf64ef6b38266a03a2b8e77
+¦       ¦   +---artifacts
+¦       ¦           confusion_matrix_GBTClassifier.png
+¦       ¦           evaluation_report_GBTClassifier.json
+¦       ¦           
+¦       +---1af3e346b6634bf79fe2ecc2a2bd59e7
+¦       ¦   +---artifacts
+¦       ¦           confusion_matrix_LinearSVC.png
+¦       ¦           evaluation_report_LinearSVC.json
+¦       ¦           
+¦       +---2af045b742b347889562942e33ed6a60
+¦       ¦   +---artifacts
+¦       ¦           confusion_matrix_RandomForestClassifier.png
+¦       ¦           evaluation_report_RandomForestClassifier.json
+¦       ¦           
+¦       +---576dc7666c914543bf7133ff8ef5f3b3
+¦       ¦   +---artifacts
+¦       ¦           confusion_matrix_NaiveBayes.png
+¦       ¦           evaluation_report_NaiveBayes.json
+¦       ¦           
+¦       +---705026fc5fe54325a6593a24fe462db8
+¦       ¦   +---artifacts
+¦       ¦           confusion_matrix_LogisticRegression.png
+¦       ¦           evaluation_report_LogisticRegression.json
+¦       ¦           
+¦       +---7bc88823953d47ee9ea66e5c81fe4014
+¦       ¦   +---artifacts
+¦       ¦           confusion_matrix_DecisionTreeClassifier.png
+¦       ¦           evaluation_report_DecisionTreeClassifier.json
+¦       ¦           
+¦       +---af0a4f962cce459184b41f010ba58619
+¦       ¦   +---artifacts
+¦       ¦           confusion_matrix_DecisionTreeClassificationModel.png
+¦       ¦           evaluation_report_DecisionTreeClassificationModel.json
+¦       ¦           
+¦       +---b0ac83b5bb1744f594e2e2bd8cffc625
+¦       ¦   +---artifacts
+¦       ¦           confusion_matrix_NaiveBayes.png
+¦       ¦           evaluation_report_NaiveBayes.json
+¦       ¦           
+¦       +---cdf1f7fc728943eb924c9c988bfb4d03
+¦       ¦   +---artifacts
+¦       ¦           confusion_matrix_DecisionTreeClassifier.png
+¦       ¦           evaluation_report_DecisionTreeClassifier.json
+¦       ¦           
+¦       +---d2bfbdc1a5b7425f9f1ba29373fc1791
+¦       ¦   +---artifacts
+¦       ¦           confusion_matrix_GBTClassificationModel.png
+¦       ¦           evaluation_report_GBTClassificationModel.json
+¦       ¦           
+¦       +---dbc455a8ea1042a4aea604698b1daf8b
+¦           +---artifacts
+¦                   confusion_matrix_GBTClassifier.png
+¦                   evaluation_report_GBTClassifier.json
+¦                   
++---data
+¦       .gitignore
+¦       test.csv
+¦       test.csv.dvc
+¦       train.csv
+¦       train.csv.dvc
+¦       
++---deployment
+¦   ¦   app.py
+¦   ¦   data_drift_detection.py
+¦   ¦   reference_profile.json
+¦   ¦   scheduler.py
+¦   ¦   test.py
+¦   ¦   __init__.py
+¦   ¦   
+¦   +---.ipynb_checkpoints
+¦   ¦       test-checkpoint.py
+¦   ¦       
+¦   +---model
+¦   ¦   ¦   conda.yaml
+¦   ¦   ¦   MLmodel
+¦   ¦   ¦   python_env.yaml
+¦   ¦   ¦   requirements.txt
+¦   ¦   ¦   
+¦   ¦   +---sparkml
+¦   ¦       +---metadata
+¦   ¦       ¦       .part-00000.crc
+¦   ¦       ¦       ._SUCCESS.crc
+¦   ¦       ¦       part-00000
+¦   ¦       ¦       _SUCCESS
+¦   ¦       ¦       
+¦   ¦       +---stages
+¦   ¦           +---0_PipelineModel_8cd61cf136c2
+¦   ¦           ¦   +---metadata
+¦   ¦           ¦   ¦       .part-00000.crc
+¦   ¦           ¦   ¦       ._SUCCESS.crc
+¦   ¦           ¦   ¦       part-00000
+¦   ¦           ¦   ¦       _SUCCESS
+¦   ¦           ¦   ¦       
+¦   ¦           ¦   +---stages
+¦   ¦           ¦       +---0_MasterColumnCreator_3009561a72a9
+¦   ¦           ¦       ¦   +---metadata
+¦   ¦           ¦       ¦           .part-00000.crc
+¦   ¦           ¦       ¦           ._SUCCESS.crc
+¦   ¦           ¦       ¦           part-00000
+¦   ¦           ¦       ¦           _SUCCESS
+¦   ¦           ¦       ¦           
+¦   ¦           ¦       +---1_Imputer_70057aba34f9
+¦   ¦           ¦       ¦   +---data
+¦   ¦           ¦       ¦   ¦       .part-00000-db8bd9ca-ceaf-4e39-a901-14e35853078a-c000.snappy.parquet.crc
+¦   ¦           ¦       ¦   ¦       ._SUCCESS.crc
+¦   ¦           ¦       ¦   ¦       part-00000-db8bd9ca-ceaf-4e39-a901-14e35853078a-c000.snappy.parquet
+¦   ¦           ¦       ¦   ¦       _SUCCESS
+¦   ¦           ¦       ¦   ¦       
+¦   ¦           ¦       ¦   +---metadata
+¦   ¦           ¦       ¦           .part-00000.crc
+¦   ¦           ¦       ¦           ._SUCCESS.crc
+¦   ¦           ¦       ¦           part-00000
+¦   ¦           ¦       ¦           _SUCCESS
+¦   ¦           ¦       ¦           
+¦   ¦           ¦       +---2_Imputer_11e49c504881
+¦   ¦           ¦       ¦   +---data
+¦   ¦           ¦       ¦   ¦       .part-00000-05864221-3ae8-450c-8932-6242f0e66b0b-c000.snappy.parquet.crc
+¦   ¦           ¦       ¦   ¦       ._SUCCESS.crc
+¦   ¦           ¦       ¦   ¦       part-00000-05864221-3ae8-450c-8932-6242f0e66b0b-c000.snappy.parquet
+¦   ¦           ¦       ¦   ¦       _SUCCESS
+¦   ¦           ¦       ¦   ¦       
+¦   ¦           ¦       ¦   +---metadata
+¦   ¦           ¦       ¦           .part-00000.crc
+¦   ¦           ¦       ¦           ._SUCCESS.crc
+¦   ¦           ¦       ¦           part-00000
+¦   ¦           ¦       ¦           _SUCCESS
+¦   ¦           ¦       ¦           
+¦   ¦           ¦       +---3_AgeImputerModel_286055817f2a
+¦   ¦           ¦       ¦   +---metadata
+¦   ¦           ¦       ¦           .part-00000.crc
+¦   ¦           ¦       ¦           ._SUCCESS.crc
+¦   ¦           ¦       ¦           part-00000
+¦   ¦           ¦       ¦           _SUCCESS
+¦   ¦           ¦       ¦           
+¦   ¦           ¦       +---4_GenderFiller_6aaf4506b938
+¦   ¦           ¦       ¦   +---metadata
+¦   ¦           ¦       ¦           .part-00000.crc
+¦   ¦           ¦       ¦           ._SUCCESS.crc
+¦   ¦           ¦       ¦           part-00000
+¦   ¦           ¦       ¦           _SUCCESS
+¦   ¦           ¦       ¦           
+¦   ¦           ¦       +---5_ColumnDropper_060f657a3815
+¦   ¦           ¦       ¦   +---metadata
+¦   ¦           ¦       ¦           .part-00000.crc
+¦   ¦           ¦       ¦           ._SUCCESS.crc
+¦   ¦           ¦       ¦           part-00000
+¦   ¦           ¦       ¦           _SUCCESS
+¦   ¦           ¦       ¦           
+¦   ¦           ¦       +---6_StringIndexer_ea09d147e6ff
+¦   ¦           ¦       ¦   +---data
+¦   ¦           ¦       ¦   ¦       .part-00000-44e54501-f28d-4024-b1eb-9daebea6383d-c000.snappy.parquet.crc
+¦   ¦           ¦       ¦   ¦       ._SUCCESS.crc
+¦   ¦           ¦       ¦   ¦       part-00000-44e54501-f28d-4024-b1eb-9daebea6383d-c000.snappy.parquet
+¦   ¦           ¦       ¦   ¦       _SUCCESS
+¦   ¦           ¦       ¦   ¦       
+¦   ¦           ¦       ¦   +---metadata
+¦   ¦           ¦       ¦           .part-00000.crc
+¦   ¦           ¦       ¦           ._SUCCESS.crc
+¦   ¦           ¦       ¦           part-00000
+¦   ¦           ¦       ¦           _SUCCESS
+¦   ¦           ¦       ¦           
+¦   ¦           ¦       +---7_OneHotEncoder_f787a00952b3
+¦   ¦           ¦       ¦   +---data
+¦   ¦           ¦       ¦   ¦       .part-00000-6ef552db-dd57-4844-aab4-ce677eafd62f-c000.snappy.parquet.crc
+¦   ¦           ¦       ¦   ¦       ._SUCCESS.crc
+¦   ¦           ¦       ¦   ¦       part-00000-6ef552db-dd57-4844-aab4-ce677eafd62f-c000.snappy.parquet
+¦   ¦           ¦       ¦   ¦       _SUCCESS
+¦   ¦           ¦       ¦   ¦       
+¦   ¦           ¦       ¦   +---metadata
+¦   ¦           ¦       ¦           .part-00000.crc
+¦   ¦           ¦       ¦           ._SUCCESS.crc
+¦   ¦           ¦       ¦           part-00000
+¦   ¦           ¦       ¦           _SUCCESS
+¦   ¦           ¦       ¦           
+¦   ¦           ¦       +---8_VectorAssembler_7df646fd8ab9
+¦   ¦           ¦           +---metadata
+¦   ¦           ¦                   .part-00000.crc
+¦   ¦           ¦                   ._SUCCESS.crc
+¦   ¦           ¦                   part-00000
+¦   ¦           ¦                   _SUCCESS
+¦   ¦           ¦                   
+¦   ¦           +---1_GBTClassifier_4e6cdb067153
+¦   ¦               +---data
+¦   ¦               ¦       .part-00000-7b2fc200-bcb2-40fc-b007-a38cf456ff59-c000.snappy.parquet.crc
+¦   ¦               ¦       ._SUCCESS.crc
+¦   ¦               ¦       part-00000-7b2fc200-bcb2-40fc-b007-a38cf456ff59-c000.snappy.parquet
+¦   ¦               ¦       _SUCCESS
+¦   ¦               ¦       
+¦   ¦               +---metadata
+¦   ¦               ¦       .part-00000.crc
+¦   ¦               ¦       ._SUCCESS.crc
+¦   ¦               ¦       part-00000
+¦   ¦               ¦       _SUCCESS
+¦   ¦               ¦       
+¦   ¦               +---treesMetadata
+¦   ¦                       .part-00000-b9eaa129-fcfb-4528-9a55-dd818bedc418-c000.snappy.parquet.crc
+¦   ¦                       ._SUCCESS.crc
+¦   ¦                       part-00000-b9eaa129-fcfb-4528-9a55-dd818bedc418-c000.snappy.parquet
+¦   ¦                       _SUCCESS
+¦   ¦                       
+¦   +---__pycache__
+¦           app.cpython-310.pyc
+¦           data_drift_detection.cpython-310.pyc
+¦           scheduler.cpython-310.pyc
+¦           test.cpython-310.pyc
+¦           training.cpython-310.pyc
+¦           __init__.cpython-310.pyc
+¦           
++---mlruns
+¦   +---.trash
+¦   +---0
+¦   ¦       meta.yaml
+¦   ¦       
+¦   +---754893316804616023
+¦   ¦   ¦   meta.yaml
+¦   ¦   ¦   
+¦   ¦   +---00d2435dfef24549bac00cc6af5a78b9
+¦   ¦   ¦   ¦   meta.yaml
+¦   ¦   ¦   ¦   
+¦   ¦   ¦   +---artifacts
+¦   ¦   ¦   ¦       LinearSVC_cm.png
+¦   ¦   ¦   ¦       LinearSVC_report.json
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---metrics
+¦   ¦   ¦   ¦       Accuracy
+¦   ¦   ¦   ¦       AUC
+¦   ¦   ¦   ¦       F1_Score
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---params
+¦   ¦   ¦   ¦       aggregationDepth
+¦   ¦   ¦   ¦       featuresCol
+¦   ¦   ¦   ¦       fitIntercept
+¦   ¦   ¦   ¦       labelCol
+¦   ¦   ¦   ¦       maxBlockSizeInMB
+¦   ¦   ¦   ¦       maxIter
+¦   ¦   ¦   ¦       predictionCol
+¦   ¦   ¦   ¦       rawPredictionCol
+¦   ¦   ¦   ¦       regParam
+¦   ¦   ¦   ¦       standardization
+¦   ¦   ¦   ¦       threshold
+¦   ¦   ¦   ¦       tol
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---tags
+¦   ¦   ¦           mlflow.runName
+¦   ¦   ¦           mlflow.source.name
+¦   ¦   ¦           mlflow.source.type
+¦   ¦   ¦           mlflow.user
+¦   ¦   ¦           
+¦   ¦   +---14bb48ce7d9948b9a20c14a4bc41f897
+¦   ¦   ¦   ¦   meta.yaml
+¦   ¦   ¦   ¦   
+¦   ¦   ¦   +---artifacts
+¦   ¦   ¦   ¦       DecisionTreeClassifier_cm.png
+¦   ¦   ¦   ¦       DecisionTreeClassifier_report.json
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---metrics
+¦   ¦   ¦   ¦       Accuracy
+¦   ¦   ¦   ¦       AUC
+¦   ¦   ¦   ¦       F1_Score
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---params
+¦   ¦   ¦   ¦       cacheNodeIds
+¦   ¦   ¦   ¦       checkpointInterval
+¦   ¦   ¦   ¦       featuresCol
+¦   ¦   ¦   ¦       impurity
+¦   ¦   ¦   ¦       labelCol
+¦   ¦   ¦   ¦       leafCol
+¦   ¦   ¦   ¦       maxBins
+¦   ¦   ¦   ¦       maxDepth
+¦   ¦   ¦   ¦       maxMemoryInMB
+¦   ¦   ¦   ¦       minInfoGain
+¦   ¦   ¦   ¦       minInstancesPerNode
+¦   ¦   ¦   ¦       minWeightFractionPerNode
+¦   ¦   ¦   ¦       predictionCol
+¦   ¦   ¦   ¦       probabilityCol
+¦   ¦   ¦   ¦       rawPredictionCol
+¦   ¦   ¦   ¦       seed
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---tags
+¦   ¦   ¦           mlflow.runName
+¦   ¦   ¦           mlflow.source.name
+¦   ¦   ¦           mlflow.source.type
+¦   ¦   ¦           mlflow.user
+¦   ¦   ¦           
+¦   ¦   +---17ad7418fe9f4a65adb61b118b0bd944
+¦   ¦   ¦   ¦   meta.yaml
+¦   ¦   ¦   ¦   
+¦   ¦   ¦   +---artifacts
+¦   ¦   ¦   ¦       LinearSVC_cm.png
+¦   ¦   ¦   ¦       LinearSVC_report.json
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---metrics
+¦   ¦   ¦   ¦       Accuracy
+¦   ¦   ¦   ¦       AUC
+¦   ¦   ¦   ¦       F1_Score
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---params
+¦   ¦   ¦   ¦       aggregationDepth
+¦   ¦   ¦   ¦       featuresCol
+¦   ¦   ¦   ¦       fitIntercept
+¦   ¦   ¦   ¦       labelCol
+¦   ¦   ¦   ¦       maxBlockSizeInMB
+¦   ¦   ¦   ¦       maxIter
+¦   ¦   ¦   ¦       predictionCol
+¦   ¦   ¦   ¦       rawPredictionCol
+¦   ¦   ¦   ¦       regParam
+¦   ¦   ¦   ¦       standardization
+¦   ¦   ¦   ¦       threshold
+¦   ¦   ¦   ¦       tol
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---tags
+¦   ¦   ¦           mlflow.runName
+¦   ¦   ¦           mlflow.source.name
+¦   ¦   ¦           mlflow.source.type
+¦   ¦   ¦           mlflow.user
+¦   ¦   ¦           
+¦   ¦   +---188d5b5be0d64e95b490eb57d64a758a
+¦   ¦   ¦   ¦   meta.yaml
+¦   ¦   ¦   ¦   
+¦   ¦   ¦   +---artifacts
+¦   ¦   ¦   ¦       GBTClassifier_cm.png
+¦   ¦   ¦   ¦       GBTClassifier_report.json
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---metrics
+¦   ¦   ¦   ¦       Accuracy
+¦   ¦   ¦   ¦       AUC
+¦   ¦   ¦   ¦       F1_Score
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---params
+¦   ¦   ¦   ¦       cacheNodeIds
+¦   ¦   ¦   ¦       checkpointInterval
+¦   ¦   ¦   ¦       featuresCol
+¦   ¦   ¦   ¦       featureSubsetStrategy
+¦   ¦   ¦   ¦       impurity
+¦   ¦   ¦   ¦       labelCol
+¦   ¦   ¦   ¦       leafCol
+¦   ¦   ¦   ¦       lossType
+¦   ¦   ¦   ¦       maxBins
+¦   ¦   ¦   ¦       maxDepth
+¦   ¦   ¦   ¦       maxIter
+¦   ¦   ¦   ¦       maxMemoryInMB
+¦   ¦   ¦   ¦       minInfoGain
+¦   ¦   ¦   ¦       minInstancesPerNode
+¦   ¦   ¦   ¦       minWeightFractionPerNode
+¦   ¦   ¦   ¦       predictionCol
+¦   ¦   ¦   ¦       probabilityCol
+¦   ¦   ¦   ¦       rawPredictionCol
+¦   ¦   ¦   ¦       seed
+¦   ¦   ¦   ¦       stepSize
+¦   ¦   ¦   ¦       subsamplingRate
+¦   ¦   ¦   ¦       validationTol
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---tags
+¦   ¦   ¦           mlflow.runName
+¦   ¦   ¦           mlflow.source.name
+¦   ¦   ¦           mlflow.source.type
+¦   ¦   ¦           mlflow.user
+¦   ¦   ¦           
+¦   ¦   +---209a6b0acde1474cbb144d7bd52dabd3
+¦   ¦   ¦   ¦   meta.yaml
+¦   ¦   ¦   ¦   
+¦   ¦   ¦   +---artifacts
+¦   ¦   ¦   ¦       DecisionTreeClassifier_cm.png
+¦   ¦   ¦   ¦       DecisionTreeClassifier_report.json
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---metrics
+¦   ¦   ¦   ¦       Accuracy
+¦   ¦   ¦   ¦       AUC
+¦   ¦   ¦   ¦       F1_Score
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---params
+¦   ¦   ¦   ¦       cacheNodeIds
+¦   ¦   ¦   ¦       checkpointInterval
+¦   ¦   ¦   ¦       featuresCol
+¦   ¦   ¦   ¦       impurity
+¦   ¦   ¦   ¦       labelCol
+¦   ¦   ¦   ¦       leafCol
+¦   ¦   ¦   ¦       maxBins
+¦   ¦   ¦   ¦       maxDepth
+¦   ¦   ¦   ¦       maxMemoryInMB
+¦   ¦   ¦   ¦       minInfoGain
+¦   ¦   ¦   ¦       minInstancesPerNode
+¦   ¦   ¦   ¦       minWeightFractionPerNode
+¦   ¦   ¦   ¦       predictionCol
+¦   ¦   ¦   ¦       probabilityCol
+¦   ¦   ¦   ¦       rawPredictionCol
+¦   ¦   ¦   ¦       seed
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---tags
+¦   ¦   ¦           mlflow.runName
+¦   ¦   ¦           mlflow.source.name
+¦   ¦   ¦           mlflow.source.type
+¦   ¦   ¦           mlflow.user
+¦   ¦   ¦           
+¦   ¦   +---22f55b00615a412a8972dd919496d0bf
+¦   ¦   ¦   ¦   meta.yaml
+¦   ¦   ¦   ¦   
+¦   ¦   ¦   +---artifacts
+¦   ¦   ¦   ¦   +---spark-model
+¦   ¦   ¦   ¦       ¦   conda.yaml
+¦   ¦   ¦   ¦       ¦   MLmodel
+¦   ¦   ¦   ¦       ¦   python_env.yaml
+¦   ¦   ¦   ¦       ¦   registered_model_meta
+¦   ¦   ¦   ¦       ¦   requirements.txt
+¦   ¦   ¦   ¦       ¦   
+¦   ¦   ¦   ¦       +---metadata
+¦   ¦   ¦   ¦       ¦       conda.yaml
+¦   ¦   ¦   ¦       ¦       MLmodel
+¦   ¦   ¦   ¦       ¦       python_env.yaml
+¦   ¦   ¦   ¦       ¦       requirements.txt
+¦   ¦   ¦   ¦       ¦       
+¦   ¦   ¦   ¦       +---sparkml
+¦   ¦   ¦   ¦           +---metadata
+¦   ¦   ¦   ¦           ¦       .part-00000.crc
+¦   ¦   ¦   ¦           ¦       ._SUCCESS.crc
+¦   ¦   ¦   ¦           ¦       part-00000
+¦   ¦   ¦   ¦           ¦       _SUCCESS
+¦   ¦   ¦   ¦           ¦       
+¦   ¦   ¦   ¦           +---stages
+¦   ¦   ¦   ¦               +---0_PipelineModel_31b102e997d5
+¦   ¦   ¦   ¦               ¦   +---metadata
+¦   ¦   ¦   ¦               ¦   ¦       .part-00000.crc
+¦   ¦   ¦   ¦               ¦   ¦       ._SUCCESS.crc
+¦   ¦   ¦   ¦               ¦   ¦       part-00000
+¦   ¦   ¦   ¦               ¦   ¦       _SUCCESS
+¦   ¦   ¦   ¦               ¦   ¦       
+¦   ¦   ¦   ¦               ¦   +---stages
+¦   ¦   ¦   ¦               ¦       +---0_MasterColumnCreator_fd847a50ad4e
+¦   ¦   ¦   ¦               ¦       ¦   +---metadata
+¦   ¦   ¦   ¦               ¦       +---1_Imputer_4c8fa2dab720
+¦   ¦   ¦   ¦               ¦       ¦   +---data
+¦   ¦   ¦   ¦               ¦       ¦   ¦       ._SUCCESS.crc
+¦   ¦   ¦   ¦               ¦       ¦   ¦       _SUCCESS
+¦   ¦   ¦   ¦               ¦       ¦   ¦       
+¦   ¦   ¦   ¦               ¦       ¦   +---metadata
+¦   ¦   ¦   ¦               ¦       ¦           .part-00000.crc
+¦   ¦   ¦   ¦               ¦       ¦           ._SUCCESS.crc
+¦   ¦   ¦   ¦               ¦       ¦           part-00000
+¦   ¦   ¦   ¦               ¦       ¦           _SUCCESS
+¦   ¦   ¦   ¦               ¦       ¦           
+¦   ¦   ¦   ¦               ¦       +---2_Imputer_374fc0034faa
+¦   ¦   ¦   ¦               ¦       ¦   +---data
+¦   ¦   ¦   ¦               ¦       ¦   ¦       ._SUCCESS.crc
+¦   ¦   ¦   ¦               ¦       ¦   ¦       _SUCCESS
+¦   ¦   ¦   ¦               ¦       ¦   ¦       
+¦   ¦   ¦   ¦               ¦       ¦   +---metadata
+¦   ¦   ¦   ¦               ¦       ¦           .part-00000.crc
+¦   ¦   ¦   ¦               ¦       ¦           ._SUCCESS.crc
+¦   ¦   ¦   ¦               ¦       ¦           part-00000
+¦   ¦   ¦   ¦               ¦       ¦           _SUCCESS
+¦   ¦   ¦   ¦               ¦       ¦           
+¦   ¦   ¦   ¦               ¦       +---3_AgeImputerModel_50667e4e2eee
+¦   ¦   ¦   ¦               ¦       ¦   +---metadata
+¦   ¦   ¦   ¦               ¦       ¦           _SUCCESS
+¦   ¦   ¦   ¦               ¦       ¦           
+¦   ¦   ¦   ¦               ¦       +---4_GenderFiller_71abd4596ea3
+¦   ¦   ¦   ¦               ¦       ¦   +---metadata
+¦   ¦   ¦   ¦               ¦       ¦           part-00000
+¦   ¦   ¦   ¦               ¦       ¦           _SUCCESS
+¦   ¦   ¦   ¦               ¦       ¦           
+¦   ¦   ¦   ¦               ¦       +---5_ColumnDropper_02324283b95a
+¦   ¦   ¦   ¦               ¦       ¦   +---metadata
+¦   ¦   ¦   ¦               ¦       ¦           part-00000
+¦   ¦   ¦   ¦               ¦       ¦           _SUCCESS
+¦   ¦   ¦   ¦               ¦       ¦           
+¦   ¦   ¦   ¦               ¦       +---6_StringIndexer_f9bda49f06a6
+¦   ¦   ¦   ¦               ¦       ¦   +---data
+¦   ¦   ¦   ¦               ¦       ¦   ¦       ._SUCCESS.crc
+¦   ¦   ¦   ¦               ¦       ¦   ¦       _SUCCESS
+¦   ¦   ¦   ¦               ¦       ¦   ¦       
+¦   ¦   ¦   ¦               ¦       ¦   +---metadata
+¦   ¦   ¦   ¦               ¦       ¦           part-00000
+¦   ¦   ¦   ¦               ¦       ¦           _SUCCESS
+¦   ¦   ¦   ¦               ¦       ¦           
+¦   ¦   ¦   ¦               ¦       +---7_OneHotEncoder_b24953be11a9
+¦   ¦   ¦   ¦               ¦       ¦   +---data
+¦   ¦   ¦   ¦               ¦       ¦   ¦       ._SUCCESS.crc
+¦   ¦   ¦   ¦               ¦       ¦   ¦       _SUCCESS
+¦   ¦   ¦   ¦               ¦       ¦   ¦       
+¦   ¦   ¦   ¦               ¦       ¦   +---metadata
+¦   ¦   ¦   ¦               ¦       ¦           part-00000
+¦   ¦   ¦   ¦               ¦       ¦           _SUCCESS
+¦   ¦   ¦   ¦               ¦       ¦           
+¦   ¦   ¦   ¦               ¦       +---8_VectorAssembler_403d6c17a9a4
+¦   ¦   ¦   ¦               ¦           +---metadata
+¦   ¦   ¦   ¦               ¦                   _SUCCESS
+¦   ¦   ¦   ¦               ¦                   
+¦   ¦   ¦   ¦               +---1_RandomForestClassifier_63ac6c5eb044
+¦   ¦   ¦   ¦                   +---data
+¦   ¦   ¦   ¦                   ¦       ._SUCCESS.crc
+¦   ¦   ¦   ¦                   ¦       _SUCCESS
+¦   ¦   ¦   ¦                   ¦       
+¦   ¦   ¦   ¦                   +---metadata
+¦   ¦   ¦   ¦                   ¦       .part-00000.crc
+¦   ¦   ¦   ¦                   ¦       ._SUCCESS.crc
+¦   ¦   ¦   ¦                   ¦       part-00000
+¦   ¦   ¦   ¦                   ¦       _SUCCESS
+¦   ¦   ¦   ¦                   ¦       
+¦   ¦   ¦   ¦                   +---treesMetadata
+¦   ¦   ¦   ¦                           ._SUCCESS.crc
+¦   ¦   ¦   ¦                           _SUCCESS
+¦   ¦   ¦   ¦                           
+¦   ¦   ¦   +---metrics
+¦   ¦   ¦   ¦       Accuracy
+¦   ¦   ¦   ¦       AUC
+¦   ¦   ¦   ¦       F1_Score
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---params
+¦   ¦   ¦   +---tags
+¦   ¦   ¦           mlflow.log-model.history
+¦   ¦   ¦           mlflow.runName
+¦   ¦   ¦           mlflow.source.name
+¦   ¦   ¦           mlflow.source.type
+¦   ¦   ¦           mlflow.user
+¦   ¦   ¦           
+¦   ¦   +---258a88a708794641ac027417d12a208e
+¦   ¦   ¦   ¦   meta.yaml
+¦   ¦   ¦   ¦   
+¦   ¦   ¦   +---artifacts
+¦   ¦   ¦   ¦       NaiveBayes_cm.png
+¦   ¦   ¦   ¦       NaiveBayes_report.json
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---metrics
+¦   ¦   ¦   ¦       Accuracy
+¦   ¦   ¦   ¦       AUC
+¦   ¦   ¦   ¦       F1_Score
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---params
+¦   ¦   ¦   ¦       featuresCol
+¦   ¦   ¦   ¦       labelCol
+¦   ¦   ¦   ¦       modelType
+¦   ¦   ¦   ¦       predictionCol
+¦   ¦   ¦   ¦       probabilityCol
+¦   ¦   ¦   ¦       rawPredictionCol
+¦   ¦   ¦   ¦       smoothing
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---tags
+¦   ¦   ¦           mlflow.runName
+¦   ¦   ¦           mlflow.source.name
+¦   ¦   ¦           mlflow.source.type
+¦   ¦   ¦           mlflow.user
+¦   ¦   ¦           
+¦   ¦   +---26a429b27267464aa107da922e0009ab
+¦   ¦   ¦   ¦   meta.yaml
+¦   ¦   ¦   ¦   
+¦   ¦   ¦   +---artifacts
+¦   ¦   ¦   ¦       GBTClassifier_cm.png
+¦   ¦   ¦   ¦       GBTClassifier_report.json
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---metrics
+¦   ¦   ¦   ¦       Accuracy
+¦   ¦   ¦   ¦       AUC
+¦   ¦   ¦   ¦       F1_Score
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---params
+¦   ¦   ¦   ¦       cacheNodeIds
+¦   ¦   ¦   ¦       checkpointInterval
+¦   ¦   ¦   ¦       featuresCol
+¦   ¦   ¦   ¦       featureSubsetStrategy
+¦   ¦   ¦   ¦       impurity
+¦   ¦   ¦   ¦       labelCol
+¦   ¦   ¦   ¦       leafCol
+¦   ¦   ¦   ¦       lossType
+¦   ¦   ¦   ¦       maxBins
+¦   ¦   ¦   ¦       maxDepth
+¦   ¦   ¦   ¦       maxIter
+¦   ¦   ¦   ¦       maxMemoryInMB
+¦   ¦   ¦   ¦       minInfoGain
+¦   ¦   ¦   ¦       minInstancesPerNode
+¦   ¦   ¦   ¦       minWeightFractionPerNode
+¦   ¦   ¦   ¦       predictionCol
+¦   ¦   ¦   ¦       probabilityCol
+¦   ¦   ¦   ¦       rawPredictionCol
+¦   ¦   ¦   ¦       seed
+¦   ¦   ¦   ¦       stepSize
+¦   ¦   ¦   ¦       subsamplingRate
+¦   ¦   ¦   ¦       validationTol
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---tags
+¦   ¦   ¦           mlflow.runName
+¦   ¦   ¦           mlflow.source.name
+¦   ¦   ¦           mlflow.source.type
+¦   ¦   ¦           mlflow.user
+¦   ¦   ¦           
+¦   ¦   +---2ce5ed3420c240f0a72b1ffd356f4945
+¦   ¦   ¦   ¦   meta.yaml
+¦   ¦   ¦   ¦   
+¦   ¦   ¦   +---artifacts
+¦   ¦   ¦   ¦       DecisionTreeClassifier_cm.png
+¦   ¦   ¦   ¦       DecisionTreeClassifier_report.json
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---metrics
+¦   ¦   ¦   ¦       Accuracy
+¦   ¦   ¦   ¦       AUC
+¦   ¦   ¦   ¦       F1_Score
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---params
+¦   ¦   ¦   ¦       cacheNodeIds
+¦   ¦   ¦   ¦       checkpointInterval
+¦   ¦   ¦   ¦       featuresCol
+¦   ¦   ¦   ¦       impurity
+¦   ¦   ¦   ¦       labelCol
+¦   ¦   ¦   ¦       leafCol
+¦   ¦   ¦   ¦       maxBins
+¦   ¦   ¦   ¦       maxDepth
+¦   ¦   ¦   ¦       maxMemoryInMB
+¦   ¦   ¦   ¦       minInfoGain
+¦   ¦   ¦   ¦       minInstancesPerNode
+¦   ¦   ¦   ¦       minWeightFractionPerNode
+¦   ¦   ¦   ¦       predictionCol
+¦   ¦   ¦   ¦       probabilityCol
+¦   ¦   ¦   ¦       rawPredictionCol
+¦   ¦   ¦   ¦       seed
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---tags
+¦   ¦   ¦           mlflow.runName
+¦   ¦   ¦           mlflow.source.name
+¦   ¦   ¦           mlflow.source.type
+¦   ¦   ¦           mlflow.user
+¦   ¦   ¦           
+¦   ¦   +---39fc35c2a8544931a59ce24a1933b3e5
+¦   ¦   ¦   ¦   meta.yaml
+¦   ¦   ¦   ¦   
+¦   ¦   ¦   +---artifacts
+¦   ¦   ¦   ¦   +---spark-model
+¦   ¦   ¦   ¦       ¦   conda.yaml
+¦   ¦   ¦   ¦       ¦   MLmodel
+¦   ¦   ¦   ¦       ¦   python_env.yaml
+¦   ¦   ¦   ¦       ¦   requirements.txt
+¦   ¦   ¦   ¦       ¦   
+¦   ¦   ¦   ¦       +---metadata
+¦   ¦   ¦   ¦       ¦       conda.yaml
+¦   ¦   ¦   ¦       ¦       MLmodel
+¦   ¦   ¦   ¦       ¦       python_env.yaml
+¦   ¦   ¦   ¦       ¦       requirements.txt
+¦   ¦   ¦   ¦       ¦       
+¦   ¦   ¦   ¦       +---sparkml
+¦   ¦   ¦   ¦           +---metadata
+¦   ¦   ¦   ¦           ¦       .part-00000.crc
+¦   ¦   ¦   ¦           ¦       ._SUCCESS.crc
+¦   ¦   ¦   ¦           ¦       part-00000
+¦   ¦   ¦   ¦           ¦       _SUCCESS
+¦   ¦   ¦   ¦           ¦       
+¦   ¦   ¦   ¦           +---stages
+¦   ¦   ¦   ¦               +---0_PipelineModel_8afa277e7033
+¦   ¦   ¦   ¦               ¦   +---metadata
+¦   ¦   ¦   ¦               ¦   ¦       .part-00000.crc
+¦   ¦   ¦   ¦               ¦   ¦       ._SUCCESS.crc
+¦   ¦   ¦   ¦               ¦   ¦       part-00000
+¦   ¦   ¦   ¦               ¦   ¦       _SUCCESS
+¦   ¦   ¦   ¦               ¦   ¦       
+¦   ¦   ¦   ¦               ¦   +---stages
+¦   ¦   ¦   ¦               ¦       +---0_MasterColumnCreator_73badfa88d30
+¦   ¦   ¦   ¦               ¦       ¦   +---metadata
+¦   ¦   ¦   ¦               ¦       +---1_Imputer_a42983dabf3d
+¦   ¦   ¦   ¦               ¦       ¦   +---data
+¦   ¦   ¦   ¦               ¦       ¦   ¦       ._SUCCESS.crc
+¦   ¦   ¦   ¦               ¦       ¦   ¦       _SUCCESS
+¦   ¦   ¦   ¦               ¦       ¦   ¦       
+¦   ¦   ¦   ¦               ¦       ¦   +---metadata
+¦   ¦   ¦   ¦               ¦       ¦           .part-00000.crc
+¦   ¦   ¦   ¦               ¦       ¦           ._SUCCESS.crc
+¦   ¦   ¦   ¦               ¦       ¦           part-00000
+¦   ¦   ¦   ¦               ¦       ¦           _SUCCESS
+¦   ¦   ¦   ¦               ¦       ¦           
+¦   ¦   ¦   ¦               ¦       +---2_Imputer_c643faff260f
+¦   ¦   ¦   ¦               ¦       ¦   +---data
+¦   ¦   ¦   ¦               ¦       ¦   ¦       ._SUCCESS.crc
+¦   ¦   ¦   ¦               ¦       ¦   ¦       _SUCCESS
+¦   ¦   ¦   ¦               ¦       ¦   ¦       
+¦   ¦   ¦   ¦               ¦       ¦   +---metadata
+¦   ¦   ¦   ¦               ¦       ¦           .part-00000.crc
+¦   ¦   ¦   ¦               ¦       ¦           ._SUCCESS.crc
+¦   ¦   ¦   ¦               ¦       ¦           part-00000
+¦   ¦   ¦   ¦               ¦       ¦           _SUCCESS
+¦   ¦   ¦   ¦               ¦       ¦           
+¦   ¦   ¦   ¦               ¦       +---3_AgeImputerModel_b6ee1ff7b76f
+¦   ¦   ¦   ¦               ¦       ¦   +---metadata
+¦   ¦   ¦   ¦               ¦       ¦           _SUCCESS
+¦   ¦   ¦   ¦               ¦       ¦           
+¦   ¦   ¦   ¦               ¦       +---4_GenderFiller_5605d67dc390
+¦   ¦   ¦   ¦               ¦       ¦   +---metadata
+¦   ¦   ¦   ¦               ¦       ¦           part-00000
+¦   ¦   ¦   ¦               ¦       ¦           _SUCCESS
+¦   ¦   ¦   ¦               ¦       ¦           
+¦   ¦   ¦   ¦               ¦       +---5_ColumnDropper_87f5079016b2
+¦   ¦   ¦   ¦               ¦       ¦   +---metadata
+¦   ¦   ¦   ¦               ¦       ¦           part-00000
+¦   ¦   ¦   ¦               ¦       ¦           _SUCCESS
+¦   ¦   ¦   ¦               ¦       ¦           
+¦   ¦   ¦   ¦               ¦       +---6_StringIndexer_9e275c516471
+¦   ¦   ¦   ¦               ¦       ¦   +---data
+¦   ¦   ¦   ¦               ¦       ¦   ¦       ._SUCCESS.crc
+¦   ¦   ¦   ¦               ¦       ¦   ¦       _SUCCESS
+¦   ¦   ¦   ¦               ¦       ¦   ¦       
+¦   ¦   ¦   ¦               ¦       ¦   +---metadata
+¦   ¦   ¦   ¦               ¦       ¦           part-00000
+¦   ¦   ¦   ¦               ¦       ¦           _SUCCESS
+¦   ¦   ¦   ¦               ¦       ¦           
+¦   ¦   ¦   ¦               ¦       +---7_OneHotEncoder_22c9117faffb
+¦   ¦   ¦   ¦               ¦       ¦   +---data
+¦   ¦   ¦   ¦               ¦       ¦   ¦       ._SUCCESS.crc
+¦   ¦   ¦   ¦               ¦       ¦   ¦       _SUCCESS
+¦   ¦   ¦   ¦               ¦       ¦   ¦       
+¦   ¦   ¦   ¦               ¦       ¦   +---metadata
+¦   ¦   ¦   ¦               ¦       ¦           part-00000
+¦   ¦   ¦   ¦               ¦       ¦           _SUCCESS
+¦   ¦   ¦   ¦               ¦       ¦           
+¦   ¦   ¦   ¦               ¦       +---8_VectorAssembler_5d9657f9f4d2
+¦   ¦   ¦   ¦               ¦           +---metadata
+¦   ¦   ¦   ¦               ¦                   _SUCCESS
+¦   ¦   ¦   ¦               ¦                   
+¦   ¦   ¦   ¦               +---1_RandomForestClassifier_b6cfa309e2f2
+¦   ¦   ¦   ¦                   +---data
+¦   ¦   ¦   ¦                   ¦       ._SUCCESS.crc
+¦   ¦   ¦   ¦                   ¦       _SUCCESS
+¦   ¦   ¦   ¦                   ¦       
+¦   ¦   ¦   ¦                   +---metadata
+¦   ¦   ¦   ¦                   ¦       .part-00000.crc
+¦   ¦   ¦   ¦                   ¦       ._SUCCESS.crc
+¦   ¦   ¦   ¦                   ¦       part-00000
+¦   ¦   ¦   ¦                   ¦       _SUCCESS
+¦   ¦   ¦   ¦                   ¦       
+¦   ¦   ¦   ¦                   +---treesMetadata
+¦   ¦   ¦   ¦                           ._SUCCESS.crc
+¦   ¦   ¦   ¦                           _SUCCESS
+¦   ¦   ¦   ¦                           
+¦   ¦   ¦   +---metrics
+¦   ¦   ¦   +---params
+¦   ¦   ¦   +---tags
+¦   ¦   ¦           mlflow.log-model.history
+¦   ¦   ¦           mlflow.runName
+¦   ¦   ¦           mlflow.source.name
+¦   ¦   ¦           mlflow.source.type
+¦   ¦   ¦           mlflow.user
+¦   ¦   ¦           
+¦   ¦   +---3f7a39b6e5c745939469573556eb9799
+¦   ¦   ¦   ¦   meta.yaml
+¦   ¦   ¦   ¦   
+¦   ¦   ¦   +---artifacts
+¦   ¦   ¦   ¦       DecisionTreeClassifier_cm.png
+¦   ¦   ¦   ¦       DecisionTreeClassifier_report.json
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---metrics
+¦   ¦   ¦   ¦       Accuracy
+¦   ¦   ¦   ¦       AUC
+¦   ¦   ¦   ¦       F1_Score
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---params
+¦   ¦   ¦   ¦       cacheNodeIds
+¦   ¦   ¦   ¦       checkpointInterval
+¦   ¦   ¦   ¦       featuresCol
+¦   ¦   ¦   ¦       impurity
+¦   ¦   ¦   ¦       labelCol
+¦   ¦   ¦   ¦       leafCol
+¦   ¦   ¦   ¦       maxBins
+¦   ¦   ¦   ¦       maxDepth
+¦   ¦   ¦   ¦       maxMemoryInMB
+¦   ¦   ¦   ¦       minInfoGain
+¦   ¦   ¦   ¦       minInstancesPerNode
+¦   ¦   ¦   ¦       minWeightFractionPerNode
+¦   ¦   ¦   ¦       predictionCol
+¦   ¦   ¦   ¦       probabilityCol
+¦   ¦   ¦   ¦       rawPredictionCol
+¦   ¦   ¦   ¦       seed
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---tags
+¦   ¦   ¦           mlflow.runName
+¦   ¦   ¦           mlflow.source.name
+¦   ¦   ¦           mlflow.source.type
+¦   ¦   ¦           mlflow.user
+¦   ¦   ¦           
+¦   ¦   +---43604399ba70451cb6e5e57a8831ebb3
+¦   ¦   ¦   ¦   meta.yaml
+¦   ¦   ¦   ¦   
+¦   ¦   ¦   +---artifacts
+¦   ¦   ¦   ¦       LogisticRegression_cm.png
+¦   ¦   ¦   ¦       LogisticRegression_report.json
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---metrics
+¦   ¦   ¦   ¦       Accuracy
+¦   ¦   ¦   ¦       AUC
+¦   ¦   ¦   ¦       F1_Score
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---params
+¦   ¦   ¦   ¦       aggregationDepth
+¦   ¦   ¦   ¦       elasticNetParam
+¦   ¦   ¦   ¦       family
+¦   ¦   ¦   ¦       featuresCol
+¦   ¦   ¦   ¦       fitIntercept
+¦   ¦   ¦   ¦       labelCol
+¦   ¦   ¦   ¦       maxBlockSizeInMB
+¦   ¦   ¦   ¦       maxIter
+¦   ¦   ¦   ¦       predictionCol
+¦   ¦   ¦   ¦       probabilityCol
+¦   ¦   ¦   ¦       rawPredictionCol
+¦   ¦   ¦   ¦       regParam
+¦   ¦   ¦   ¦       standardization
+¦   ¦   ¦   ¦       threshold
+¦   ¦   ¦   ¦       tol
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---tags
+¦   ¦   ¦           mlflow.runName
+¦   ¦   ¦           mlflow.source.name
+¦   ¦   ¦           mlflow.source.type
+¦   ¦   ¦           mlflow.user
+¦   ¦   ¦           
+¦   ¦   +---5672b676e9514c4284033f0e136d2e77
+¦   ¦   ¦   ¦   meta.yaml
+¦   ¦   ¦   ¦   
+¦   ¦   ¦   +---artifacts
+¦   ¦   ¦   ¦       RandomForestClassifier_cm.png
+¦   ¦   ¦   ¦       RandomForestClassifier_report.json
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---metrics
+¦   ¦   ¦   ¦       Accuracy
+¦   ¦   ¦   ¦       AUC
+¦   ¦   ¦   ¦       F1_Score
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---params
+¦   ¦   ¦   ¦       bootstrap
+¦   ¦   ¦   ¦       cacheNodeIds
+¦   ¦   ¦   ¦       checkpointInterval
+¦   ¦   ¦   ¦       featuresCol
+¦   ¦   ¦   ¦       featureSubsetStrategy
+¦   ¦   ¦   ¦       impurity
+¦   ¦   ¦   ¦       labelCol
+¦   ¦   ¦   ¦       leafCol
+¦   ¦   ¦   ¦       maxBins
+¦   ¦   ¦   ¦       maxDepth
+¦   ¦   ¦   ¦       maxMemoryInMB
+¦   ¦   ¦   ¦       minInfoGain
+¦   ¦   ¦   ¦       minInstancesPerNode
+¦   ¦   ¦   ¦       minWeightFractionPerNode
+¦   ¦   ¦   ¦       numTrees
+¦   ¦   ¦   ¦       predictionCol
+¦   ¦   ¦   ¦       probabilityCol
+¦   ¦   ¦   ¦       rawPredictionCol
+¦   ¦   ¦   ¦       seed
+¦   ¦   ¦   ¦       subsamplingRate
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---tags
+¦   ¦   ¦           mlflow.runName
+¦   ¦   ¦           mlflow.source.name
+¦   ¦   ¦           mlflow.source.type
+¦   ¦   ¦           mlflow.user
+¦   ¦   ¦           
+¦   ¦   +---58c2546f96d44fa4b67a4677a3f7c16b
+¦   ¦   ¦   ¦   meta.yaml
+¦   ¦   ¦   ¦   
+¦   ¦   ¦   +---artifacts
+¦   ¦   ¦   ¦       NaiveBayes_cm.png
+¦   ¦   ¦   ¦       NaiveBayes_report.json
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---metrics
+¦   ¦   ¦   ¦       Accuracy
+¦   ¦   ¦   ¦       AUC
+¦   ¦   ¦   ¦       F1_Score
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---params
+¦   ¦   ¦   ¦       featuresCol
+¦   ¦   ¦   ¦       labelCol
+¦   ¦   ¦   ¦       modelType
+¦   ¦   ¦   ¦       predictionCol
+¦   ¦   ¦   ¦       probabilityCol
+¦   ¦   ¦   ¦       rawPredictionCol
+¦   ¦   ¦   ¦       smoothing
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---tags
+¦   ¦   ¦           mlflow.runName
+¦   ¦   ¦           mlflow.source.name
+¦   ¦   ¦           mlflow.source.type
+¦   ¦   ¦           mlflow.user
+¦   ¦   ¦           
+¦   ¦   +---5b6248b41a2043258260b380e2861b4e
+¦   ¦   ¦   ¦   meta.yaml
+¦   ¦   ¦   ¦   
+¦   ¦   ¦   +---artifacts
+¦   ¦   ¦   ¦       NaiveBayes_cm.png
+¦   ¦   ¦   ¦       NaiveBayes_report.json
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---metrics
+¦   ¦   ¦   ¦       Accuracy
+¦   ¦   ¦   ¦       AUC
+¦   ¦   ¦   ¦       F1_Score
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---params
+¦   ¦   ¦   ¦       featuresCol
+¦   ¦   ¦   ¦       labelCol
+¦   ¦   ¦   ¦       modelType
+¦   ¦   ¦   ¦       predictionCol
+¦   ¦   ¦   ¦       probabilityCol
+¦   ¦   ¦   ¦       rawPredictionCol
+¦   ¦   ¦   ¦       smoothing
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---tags
+¦   ¦   ¦           mlflow.runName
+¦   ¦   ¦           mlflow.source.name
+¦   ¦   ¦           mlflow.source.type
+¦   ¦   ¦           mlflow.user
+¦   ¦   ¦           
+¦   ¦   +---5bdc11d4de2945b7bd20a0a6bee3b0b1
+¦   ¦   ¦   ¦   meta.yaml
+¦   ¦   ¦   ¦   
+¦   ¦   ¦   +---artifacts
+¦   ¦   ¦   ¦       RandomForestClassifier_cm.png
+¦   ¦   ¦   ¦       RandomForestClassifier_report.json
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---metrics
+¦   ¦   ¦   ¦       Accuracy
+¦   ¦   ¦   ¦       AUC
+¦   ¦   ¦   ¦       F1_Score
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---params
+¦   ¦   ¦   ¦       bootstrap
+¦   ¦   ¦   ¦       cacheNodeIds
+¦   ¦   ¦   ¦       checkpointInterval
+¦   ¦   ¦   ¦       featuresCol
+¦   ¦   ¦   ¦       featureSubsetStrategy
+¦   ¦   ¦   ¦       impurity
+¦   ¦   ¦   ¦       labelCol
+¦   ¦   ¦   ¦       leafCol
+¦   ¦   ¦   ¦       maxBins
+¦   ¦   ¦   ¦       maxDepth
+¦   ¦   ¦   ¦       maxMemoryInMB
+¦   ¦   ¦   ¦       minInfoGain
+¦   ¦   ¦   ¦       minInstancesPerNode
+¦   ¦   ¦   ¦       minWeightFractionPerNode
+¦   ¦   ¦   ¦       numTrees
+¦   ¦   ¦   ¦       predictionCol
+¦   ¦   ¦   ¦       probabilityCol
+¦   ¦   ¦   ¦       rawPredictionCol
+¦   ¦   ¦   ¦       seed
+¦   ¦   ¦   ¦       subsamplingRate
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---tags
+¦   ¦   ¦           mlflow.runName
+¦   ¦   ¦           mlflow.source.name
+¦   ¦   ¦           mlflow.source.type
+¦   ¦   ¦           mlflow.user
+¦   ¦   ¦           
+¦   ¦   +---5f709e2f95f34ce7a6a7e6e873cf88ac
+¦   ¦   ¦   ¦   meta.yaml
+¦   ¦   ¦   ¦   
+¦   ¦   ¦   +---artifacts
+¦   ¦   ¦   ¦       LogisticRegression_cm.png
+¦   ¦   ¦   ¦       LogisticRegression_report.json
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---metrics
+¦   ¦   ¦   ¦       Accuracy
+¦   ¦   ¦   ¦       AUC
+¦   ¦   ¦   ¦       F1_Score
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---params
+¦   ¦   ¦   ¦       aggregationDepth
+¦   ¦   ¦   ¦       elasticNetParam
+¦   ¦   ¦   ¦       family
+¦   ¦   ¦   ¦       featuresCol
+¦   ¦   ¦   ¦       fitIntercept
+¦   ¦   ¦   ¦       labelCol
+¦   ¦   ¦   ¦       maxBlockSizeInMB
+¦   ¦   ¦   ¦       maxIter
+¦   ¦   ¦   ¦       predictionCol
+¦   ¦   ¦   ¦       probabilityCol
+¦   ¦   ¦   ¦       rawPredictionCol
+¦   ¦   ¦   ¦       regParam
+¦   ¦   ¦   ¦       standardization
+¦   ¦   ¦   ¦       threshold
+¦   ¦   ¦   ¦       tol
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---tags
+¦   ¦   ¦           mlflow.runName
+¦   ¦   ¦           mlflow.source.name
+¦   ¦   ¦           mlflow.source.type
+¦   ¦   ¦           mlflow.user
+¦   ¦   ¦           
+¦   ¦   +---65fdcdde526c4ced8c80f4f1e54310db
+¦   ¦   ¦   ¦   meta.yaml
+¦   ¦   ¦   ¦   
+¦   ¦   ¦   +---artifacts
+¦   ¦   ¦   ¦       RandomForestClassifier_cm.png
+¦   ¦   ¦   ¦       RandomForestClassifier_report.json
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---metrics
+¦   ¦   ¦   ¦       Accuracy
+¦   ¦   ¦   ¦       AUC
+¦   ¦   ¦   ¦       F1_Score
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---params
+¦   ¦   ¦   ¦       bootstrap
+¦   ¦   ¦   ¦       cacheNodeIds
+¦   ¦   ¦   ¦       checkpointInterval
+¦   ¦   ¦   ¦       featuresCol
+¦   ¦   ¦   ¦       featureSubsetStrategy
+¦   ¦   ¦   ¦       impurity
+¦   ¦   ¦   ¦       labelCol
+¦   ¦   ¦   ¦       leafCol
+¦   ¦   ¦   ¦       maxBins
+¦   ¦   ¦   ¦       maxDepth
+¦   ¦   ¦   ¦       maxMemoryInMB
+¦   ¦   ¦   ¦       minInfoGain
+¦   ¦   ¦   ¦       minInstancesPerNode
+¦   ¦   ¦   ¦       minWeightFractionPerNode
+¦   ¦   ¦   ¦       numTrees
+¦   ¦   ¦   ¦       predictionCol
+¦   ¦   ¦   ¦       probabilityCol
+¦   ¦   ¦   ¦       rawPredictionCol
+¦   ¦   ¦   ¦       seed
+¦   ¦   ¦   ¦       subsamplingRate
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---tags
+¦   ¦   ¦           mlflow.runName
+¦   ¦   ¦           mlflow.source.name
+¦   ¦   ¦           mlflow.source.type
+¦   ¦   ¦           mlflow.user
+¦   ¦   ¦           
+¦   ¦   +---663187badcc8431ca116b0c8bbbc1a24
+¦   ¦   ¦   ¦   meta.yaml
+¦   ¦   ¦   ¦   
+¦   ¦   ¦   +---artifacts
+¦   ¦   ¦   ¦       DecisionTreeClassifier_cm.png
+¦   ¦   ¦   ¦       DecisionTreeClassifier_report.json
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---metrics
+¦   ¦   ¦   ¦       Accuracy
+¦   ¦   ¦   ¦       AUC
+¦   ¦   ¦   ¦       F1_Score
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---params
+¦   ¦   ¦   ¦       cacheNodeIds
+¦   ¦   ¦   ¦       checkpointInterval
+¦   ¦   ¦   ¦       featuresCol
+¦   ¦   ¦   ¦       impurity
+¦   ¦   ¦   ¦       labelCol
+¦   ¦   ¦   ¦       leafCol
+¦   ¦   ¦   ¦       maxBins
+¦   ¦   ¦   ¦       maxDepth
+¦   ¦   ¦   ¦       maxMemoryInMB
+¦   ¦   ¦   ¦       minInfoGain
+¦   ¦   ¦   ¦       minInstancesPerNode
+¦   ¦   ¦   ¦       minWeightFractionPerNode
+¦   ¦   ¦   ¦       predictionCol
+¦   ¦   ¦   ¦       probabilityCol
+¦   ¦   ¦   ¦       rawPredictionCol
+¦   ¦   ¦   ¦       seed
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---tags
+¦   ¦   ¦           mlflow.runName
+¦   ¦   ¦           mlflow.source.name
+¦   ¦   ¦           mlflow.source.type
+¦   ¦   ¦           mlflow.user
+¦   ¦   ¦           
+¦   ¦   +---6c38c198dd474424a6a76447811f165d
+¦   ¦   ¦   ¦   meta.yaml
+¦   ¦   ¦   ¦   
+¦   ¦   ¦   +---artifacts
+¦   ¦   ¦   ¦       RandomForestClassifier_cm.png
+¦   ¦   ¦   ¦       RandomForestClassifier_report.json
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---metrics
+¦   ¦   ¦   ¦       Accuracy
+¦   ¦   ¦   ¦       AUC
+¦   ¦   ¦   ¦       F1_Score
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---params
+¦   ¦   ¦   ¦       bootstrap
+¦   ¦   ¦   ¦       cacheNodeIds
+¦   ¦   ¦   ¦       checkpointInterval
+¦   ¦   ¦   ¦       featuresCol
+¦   ¦   ¦   ¦       featureSubsetStrategy
+¦   ¦   ¦   ¦       impurity
+¦   ¦   ¦   ¦       labelCol
+¦   ¦   ¦   ¦       leafCol
+¦   ¦   ¦   ¦       maxBins
+¦   ¦   ¦   ¦       maxDepth
+¦   ¦   ¦   ¦       maxMemoryInMB
+¦   ¦   ¦   ¦       minInfoGain
+¦   ¦   ¦   ¦       minInstancesPerNode
+¦   ¦   ¦   ¦       minWeightFractionPerNode
+¦   ¦   ¦   ¦       numTrees
+¦   ¦   ¦   ¦       predictionCol
+¦   ¦   ¦   ¦       probabilityCol
+¦   ¦   ¦   ¦       rawPredictionCol
+¦   ¦   ¦   ¦       seed
+¦   ¦   ¦   ¦       subsamplingRate
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---tags
+¦   ¦   ¦           mlflow.runName
+¦   ¦   ¦           mlflow.source.name
+¦   ¦   ¦           mlflow.source.type
+¦   ¦   ¦           mlflow.user
+¦   ¦   ¦           
+¦   ¦   +---7611d4e63502487c8945480f2ee93f68
+¦   ¦   ¦   ¦   meta.yaml
+¦   ¦   ¦   ¦   
+¦   ¦   ¦   +---artifacts
+¦   ¦   ¦   ¦       NaiveBayes_cm.png
+¦   ¦   ¦   ¦       NaiveBayes_report.json
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---metrics
+¦   ¦   ¦   ¦       Accuracy
+¦   ¦   ¦   ¦       AUC
+¦   ¦   ¦   ¦       F1_Score
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---params
+¦   ¦   ¦   ¦       featuresCol
+¦   ¦   ¦   ¦       labelCol
+¦   ¦   ¦   ¦       modelType
+¦   ¦   ¦   ¦       predictionCol
+¦   ¦   ¦   ¦       probabilityCol
+¦   ¦   ¦   ¦       rawPredictionCol
+¦   ¦   ¦   ¦       smoothing
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---tags
+¦   ¦   ¦           mlflow.runName
+¦   ¦   ¦           mlflow.source.name
+¦   ¦   ¦           mlflow.source.type
+¦   ¦   ¦           mlflow.user
+¦   ¦   ¦           
+¦   ¦   +---797d59153fac403bbb1e2e0cc55a8ccd
+¦   ¦   ¦   ¦   meta.yaml
+¦   ¦   ¦   ¦   
+¦   ¦   ¦   +---artifacts
+¦   ¦   ¦   ¦       LogisticRegression_cm.png
+¦   ¦   ¦   ¦       LogisticRegression_report.json
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---metrics
+¦   ¦   ¦   ¦       Accuracy
+¦   ¦   ¦   ¦       AUC
+¦   ¦   ¦   ¦       F1_Score
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---params
+¦   ¦   ¦   ¦       aggregationDepth
+¦   ¦   ¦   ¦       elasticNetParam
+¦   ¦   ¦   ¦       family
+¦   ¦   ¦   ¦       featuresCol
+¦   ¦   ¦   ¦       fitIntercept
+¦   ¦   ¦   ¦       labelCol
+¦   ¦   ¦   ¦       maxBlockSizeInMB
+¦   ¦   ¦   ¦       maxIter
+¦   ¦   ¦   ¦       predictionCol
+¦   ¦   ¦   ¦       probabilityCol
+¦   ¦   ¦   ¦       rawPredictionCol
+¦   ¦   ¦   ¦       regParam
+¦   ¦   ¦   ¦       standardization
+¦   ¦   ¦   ¦       threshold
+¦   ¦   ¦   ¦       tol
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---tags
+¦   ¦   ¦           mlflow.runName
+¦   ¦   ¦           mlflow.source.name
+¦   ¦   ¦           mlflow.source.type
+¦   ¦   ¦           mlflow.user
+¦   ¦   ¦           
+¦   ¦   +---871f84f383624f7fb69a405c44b289f0
+¦   ¦   ¦   ¦   meta.yaml
+¦   ¦   ¦   ¦   
+¦   ¦   ¦   +---artifacts
+¦   ¦   ¦   ¦       GBTClassifier_cm.png
+¦   ¦   ¦   ¦       GBTClassifier_report.json
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---metrics
+¦   ¦   ¦   ¦       Accuracy
+¦   ¦   ¦   ¦       AUC
+¦   ¦   ¦   ¦       F1_Score
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---params
+¦   ¦   ¦   ¦       cacheNodeIds
+¦   ¦   ¦   ¦       checkpointInterval
+¦   ¦   ¦   ¦       featuresCol
+¦   ¦   ¦   ¦       featureSubsetStrategy
+¦   ¦   ¦   ¦       impurity
+¦   ¦   ¦   ¦       labelCol
+¦   ¦   ¦   ¦       leafCol
+¦   ¦   ¦   ¦       lossType
+¦   ¦   ¦   ¦       maxBins
+¦   ¦   ¦   ¦       maxDepth
+¦   ¦   ¦   ¦       maxIter
+¦   ¦   ¦   ¦       maxMemoryInMB
+¦   ¦   ¦   ¦       minInfoGain
+¦   ¦   ¦   ¦       minInstancesPerNode
+¦   ¦   ¦   ¦       minWeightFractionPerNode
+¦   ¦   ¦   ¦       predictionCol
+¦   ¦   ¦   ¦       probabilityCol
+¦   ¦   ¦   ¦       rawPredictionCol
+¦   ¦   ¦   ¦       seed
+¦   ¦   ¦   ¦       stepSize
+¦   ¦   ¦   ¦       subsamplingRate
+¦   ¦   ¦   ¦       validationTol
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---tags
+¦   ¦   ¦           mlflow.runName
+¦   ¦   ¦           mlflow.source.name
+¦   ¦   ¦           mlflow.source.type
+¦   ¦   ¦           mlflow.user
+¦   ¦   ¦           
+¦   ¦   +---8ed862f8b81a482cbcdb7393f678bee7
+¦   ¦   ¦   ¦   meta.yaml
+¦   ¦   ¦   ¦   
+¦   ¦   ¦   +---artifacts
+¦   ¦   ¦   ¦       LinearSVC_cm.png
+¦   ¦   ¦   ¦       LinearSVC_report.json
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---metrics
+¦   ¦   ¦   ¦       Accuracy
+¦   ¦   ¦   ¦       AUC
+¦   ¦   ¦   ¦       F1_Score
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---params
+¦   ¦   ¦   ¦       aggregationDepth
+¦   ¦   ¦   ¦       featuresCol
+¦   ¦   ¦   ¦       fitIntercept
+¦   ¦   ¦   ¦       labelCol
+¦   ¦   ¦   ¦       maxBlockSizeInMB
+¦   ¦   ¦   ¦       maxIter
+¦   ¦   ¦   ¦       predictionCol
+¦   ¦   ¦   ¦       rawPredictionCol
+¦   ¦   ¦   ¦       regParam
+¦   ¦   ¦   ¦       standardization
+¦   ¦   ¦   ¦       threshold
+¦   ¦   ¦   ¦       tol
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---tags
+¦   ¦   ¦           mlflow.runName
+¦   ¦   ¦           mlflow.source.name
+¦   ¦   ¦           mlflow.source.type
+¦   ¦   ¦           mlflow.user
+¦   ¦   ¦           
+¦   ¦   +---90dc77990e494e9da28383c2617894d8
+¦   ¦   ¦   ¦   meta.yaml
+¦   ¦   ¦   ¦   
+¦   ¦   ¦   +---artifacts
+¦   ¦   ¦   ¦       LogisticRegression_cm.png
+¦   ¦   ¦   ¦       LogisticRegression_report.json
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---metrics
+¦   ¦   ¦   ¦       Accuracy
+¦   ¦   ¦   ¦       AUC
+¦   ¦   ¦   ¦       F1_Score
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---params
+¦   ¦   ¦   ¦       aggregationDepth
+¦   ¦   ¦   ¦       elasticNetParam
+¦   ¦   ¦   ¦       family
+¦   ¦   ¦   ¦       featuresCol
+¦   ¦   ¦   ¦       fitIntercept
+¦   ¦   ¦   ¦       labelCol
+¦   ¦   ¦   ¦       maxBlockSizeInMB
+¦   ¦   ¦   ¦       maxIter
+¦   ¦   ¦   ¦       predictionCol
+¦   ¦   ¦   ¦       probabilityCol
+¦   ¦   ¦   ¦       rawPredictionCol
+¦   ¦   ¦   ¦       regParam
+¦   ¦   ¦   ¦       standardization
+¦   ¦   ¦   ¦       threshold
+¦   ¦   ¦   ¦       tol
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---tags
+¦   ¦   ¦           mlflow.runName
+¦   ¦   ¦           mlflow.source.name
+¦   ¦   ¦           mlflow.source.type
+¦   ¦   ¦           mlflow.user
+¦   ¦   ¦           
+¦   ¦   +---94b23fdc639745cf864c341528d1a20c
+¦   ¦   ¦   ¦   meta.yaml
+¦   ¦   ¦   ¦   
+¦   ¦   ¦   +---artifacts
+¦   ¦   ¦   ¦       GBTClassifier_cm.png
+¦   ¦   ¦   ¦       GBTClassifier_report.json
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---metrics
+¦   ¦   ¦   ¦       Accuracy
+¦   ¦   ¦   ¦       AUC
+¦   ¦   ¦   ¦       F1_Score
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---params
+¦   ¦   ¦   ¦       cacheNodeIds
+¦   ¦   ¦   ¦       checkpointInterval
+¦   ¦   ¦   ¦       featuresCol
+¦   ¦   ¦   ¦       featureSubsetStrategy
+¦   ¦   ¦   ¦       impurity
+¦   ¦   ¦   ¦       labelCol
+¦   ¦   ¦   ¦       leafCol
+¦   ¦   ¦   ¦       lossType
+¦   ¦   ¦   ¦       maxBins
+¦   ¦   ¦   ¦       maxDepth
+¦   ¦   ¦   ¦       maxIter
+¦   ¦   ¦   ¦       maxMemoryInMB
+¦   ¦   ¦   ¦       minInfoGain
+¦   ¦   ¦   ¦       minInstancesPerNode
+¦   ¦   ¦   ¦       minWeightFractionPerNode
+¦   ¦   ¦   ¦       predictionCol
+¦   ¦   ¦   ¦       probabilityCol
+¦   ¦   ¦   ¦       rawPredictionCol
+¦   ¦   ¦   ¦       seed
+¦   ¦   ¦   ¦       stepSize
+¦   ¦   ¦   ¦       subsamplingRate
+¦   ¦   ¦   ¦       validationTol
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---tags
+¦   ¦   ¦           mlflow.runName
+¦   ¦   ¦           mlflow.source.name
+¦   ¦   ¦           mlflow.source.type
+¦   ¦   ¦           mlflow.user
+¦   ¦   ¦           
+¦   ¦   +---990c6b5b5c324370a9c2726a34827998
+¦   ¦   ¦   ¦   meta.yaml
+¦   ¦   ¦   ¦   
+¦   ¦   ¦   +---artifacts
+¦   ¦   ¦   ¦       LinearSVC_cm.png
+¦   ¦   ¦   ¦       LinearSVC_report.json
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---metrics
+¦   ¦   ¦   ¦       Accuracy
+¦   ¦   ¦   ¦       AUC
+¦   ¦   ¦   ¦       F1_Score
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---params
+¦   ¦   ¦   ¦       aggregationDepth
+¦   ¦   ¦   ¦       featuresCol
+¦   ¦   ¦   ¦       fitIntercept
+¦   ¦   ¦   ¦       labelCol
+¦   ¦   ¦   ¦       maxBlockSizeInMB
+¦   ¦   ¦   ¦       maxIter
+¦   ¦   ¦   ¦       predictionCol
+¦   ¦   ¦   ¦       rawPredictionCol
+¦   ¦   ¦   ¦       regParam
+¦   ¦   ¦   ¦       standardization
+¦   ¦   ¦   ¦       threshold
+¦   ¦   ¦   ¦       tol
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---tags
+¦   ¦   ¦           mlflow.runName
+¦   ¦   ¦           mlflow.source.name
+¦   ¦   ¦           mlflow.source.type
+¦   ¦   ¦           mlflow.user
+¦   ¦   ¦           
+¦   ¦   +---9d6bde214dec444c96eeba35c90b40fb
+¦   ¦   ¦   ¦   meta.yaml
+¦   ¦   ¦   ¦   
+¦   ¦   ¦   +---artifacts
+¦   ¦   ¦   ¦   +---spark-model
+¦   ¦   ¦   ¦       ¦   conda.yaml
+¦   ¦   ¦   ¦       ¦   MLmodel
+¦   ¦   ¦   ¦       ¦   python_env.yaml
+¦   ¦   ¦   ¦       ¦   registered_model_meta
+¦   ¦   ¦   ¦       ¦   requirements.txt
+¦   ¦   ¦   ¦       ¦   
+¦   ¦   ¦   ¦       +---metadata
+¦   ¦   ¦   ¦       ¦       conda.yaml
+¦   ¦   ¦   ¦       ¦       MLmodel
+¦   ¦   ¦   ¦       ¦       python_env.yaml
+¦   ¦   ¦   ¦       ¦       requirements.txt
+¦   ¦   ¦   ¦       ¦       
+¦   ¦   ¦   ¦       +---sparkml
+¦   ¦   ¦   ¦           +---metadata
+¦   ¦   ¦   ¦           ¦       .part-00000.crc
+¦   ¦   ¦   ¦           ¦       ._SUCCESS.crc
+¦   ¦   ¦   ¦           ¦       part-00000
+¦   ¦   ¦   ¦           ¦       _SUCCESS
+¦   ¦   ¦   ¦           ¦       
+¦   ¦   ¦   ¦           +---stages
+¦   ¦   ¦   ¦               +---0_PipelineModel_8cd61cf136c2
+¦   ¦   ¦   ¦               ¦   +---metadata
+¦   ¦   ¦   ¦               ¦   ¦       .part-00000.crc
+¦   ¦   ¦   ¦               ¦   ¦       ._SUCCESS.crc
+¦   ¦   ¦   ¦               ¦   ¦       part-00000
+¦   ¦   ¦   ¦               ¦   ¦       _SUCCESS
+¦   ¦   ¦   ¦               ¦   ¦       
+¦   ¦   ¦   ¦               ¦   +---stages
+¦   ¦   ¦   ¦               ¦       +---0_MasterColumnCreator_3009561a72a9
+¦   ¦   ¦   ¦               ¦       ¦   +---metadata
+¦   ¦   ¦   ¦               ¦       +---1_Imputer_70057aba34f9
+¦   ¦   ¦   ¦               ¦       ¦   +---data
+¦   ¦   ¦   ¦               ¦       ¦   ¦       ._SUCCESS.crc
+¦   ¦   ¦   ¦               ¦       ¦   ¦       _SUCCESS
+¦   ¦   ¦   ¦               ¦       ¦   ¦       
+¦   ¦   ¦   ¦               ¦       ¦   +---metadata
+¦   ¦   ¦   ¦               ¦       ¦           .part-00000.crc
+¦   ¦   ¦   ¦               ¦       ¦           ._SUCCESS.crc
+¦   ¦   ¦   ¦               ¦       ¦           part-00000
+¦   ¦   ¦   ¦               ¦       ¦           _SUCCESS
+¦   ¦   ¦   ¦               ¦       ¦           
+¦   ¦   ¦   ¦               ¦       +---2_Imputer_11e49c504881
+¦   ¦   ¦   ¦               ¦       ¦   +---data
+¦   ¦   ¦   ¦               ¦       ¦   ¦       ._SUCCESS.crc
+¦   ¦   ¦   ¦               ¦       ¦   ¦       _SUCCESS
+¦   ¦   ¦   ¦               ¦       ¦   ¦       
+¦   ¦   ¦   ¦               ¦       ¦   +---metadata
+¦   ¦   ¦   ¦               ¦       ¦           .part-00000.crc
+¦   ¦   ¦   ¦               ¦       ¦           ._SUCCESS.crc
+¦   ¦   ¦   ¦               ¦       ¦           part-00000
+¦   ¦   ¦   ¦               ¦       ¦           _SUCCESS
+¦   ¦   ¦   ¦               ¦       ¦           
+¦   ¦   ¦   ¦               ¦       +---3_AgeImputerModel_286055817f2a
+¦   ¦   ¦   ¦               ¦       ¦   +---metadata
+¦   ¦   ¦   ¦               ¦       ¦           _SUCCESS
+¦   ¦   ¦   ¦               ¦       ¦           
+¦   ¦   ¦   ¦               ¦       +---4_GenderFiller_6aaf4506b938
+¦   ¦   ¦   ¦               ¦       ¦   +---metadata
+¦   ¦   ¦   ¦               ¦       ¦           part-00000
+¦   ¦   ¦   ¦               ¦       ¦           _SUCCESS
+¦   ¦   ¦   ¦               ¦       ¦           
+¦   ¦   ¦   ¦               ¦       +---5_ColumnDropper_060f657a3815
+¦   ¦   ¦   ¦               ¦       ¦   +---metadata
+¦   ¦   ¦   ¦               ¦       ¦           part-00000
+¦   ¦   ¦   ¦               ¦       ¦           _SUCCESS
+¦   ¦   ¦   ¦               ¦       ¦           
+¦   ¦   ¦   ¦               ¦       +---6_StringIndexer_ea09d147e6ff
+¦   ¦   ¦   ¦               ¦       ¦   +---data
+¦   ¦   ¦   ¦               ¦       ¦   ¦       ._SUCCESS.crc
+¦   ¦   ¦   ¦               ¦       ¦   ¦       _SUCCESS
+¦   ¦   ¦   ¦               ¦       ¦   ¦       
+¦   ¦   ¦   ¦               ¦       ¦   +---metadata
+¦   ¦   ¦   ¦               ¦       ¦           part-00000
+¦   ¦   ¦   ¦               ¦       ¦           _SUCCESS
+¦   ¦   ¦   ¦               ¦       ¦           
+¦   ¦   ¦   ¦               ¦       +---7_OneHotEncoder_f787a00952b3
+¦   ¦   ¦   ¦               ¦       ¦   +---data
+¦   ¦   ¦   ¦               ¦       ¦   ¦       ._SUCCESS.crc
+¦   ¦   ¦   ¦               ¦       ¦   ¦       _SUCCESS
+¦   ¦   ¦   ¦               ¦       ¦   ¦       
+¦   ¦   ¦   ¦               ¦       ¦   +---metadata
+¦   ¦   ¦   ¦               ¦       ¦           part-00000
+¦   ¦   ¦   ¦               ¦       ¦           _SUCCESS
+¦   ¦   ¦   ¦               ¦       ¦           
+¦   ¦   ¦   ¦               ¦       +---8_VectorAssembler_7df646fd8ab9
+¦   ¦   ¦   ¦               ¦           +---metadata
+¦   ¦   ¦   ¦               ¦                   _SUCCESS
+¦   ¦   ¦   ¦               ¦                   
+¦   ¦   ¦   ¦               +---1_GBTClassifier_4e6cdb067153
+¦   ¦   ¦   ¦                   +---data
+¦   ¦   ¦   ¦                   ¦       ._SUCCESS.crc
+¦   ¦   ¦   ¦                   ¦       _SUCCESS
+¦   ¦   ¦   ¦                   ¦       
+¦   ¦   ¦   ¦                   +---metadata
+¦   ¦   ¦   ¦                   ¦       .part-00000.crc
+¦   ¦   ¦   ¦                   ¦       ._SUCCESS.crc
+¦   ¦   ¦   ¦                   ¦       part-00000
+¦   ¦   ¦   ¦                   ¦       _SUCCESS
+¦   ¦   ¦   ¦                   ¦       
+¦   ¦   ¦   ¦                   +---treesMetadata
+¦   ¦   ¦   ¦                           ._SUCCESS.crc
+¦   ¦   ¦   ¦                           _SUCCESS
+¦   ¦   ¦   ¦                           
+¦   ¦   ¦   +---metrics
+¦   ¦   ¦   ¦       Accuracy
+¦   ¦   ¦   ¦       AUC
+¦   ¦   ¦   ¦       F1_Score
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---params
+¦   ¦   ¦   +---tags
+¦   ¦   ¦           mlflow.log-model.history
+¦   ¦   ¦           mlflow.runName
+¦   ¦   ¦           mlflow.source.name
+¦   ¦   ¦           mlflow.source.type
+¦   ¦   ¦           mlflow.user
+¦   ¦   ¦           
+¦   ¦   +---b95c60b378af4036bc5ead04e8374a07
+¦   ¦   ¦   ¦   meta.yaml
+¦   ¦   ¦   ¦   
+¦   ¦   ¦   +---artifacts
+¦   ¦   ¦   ¦       LinearSVC_cm.png
+¦   ¦   ¦   ¦       LinearSVC_report.json
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---metrics
+¦   ¦   ¦   ¦       Accuracy
+¦   ¦   ¦   ¦       AUC
+¦   ¦   ¦   ¦       F1_Score
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---params
+¦   ¦   ¦   ¦       aggregationDepth
+¦   ¦   ¦   ¦       featuresCol
+¦   ¦   ¦   ¦       fitIntercept
+¦   ¦   ¦   ¦       labelCol
+¦   ¦   ¦   ¦       maxBlockSizeInMB
+¦   ¦   ¦   ¦       maxIter
+¦   ¦   ¦   ¦       predictionCol
+¦   ¦   ¦   ¦       rawPredictionCol
+¦   ¦   ¦   ¦       regParam
+¦   ¦   ¦   ¦       standardization
+¦   ¦   ¦   ¦       threshold
+¦   ¦   ¦   ¦       tol
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---tags
+¦   ¦   ¦           mlflow.runName
+¦   ¦   ¦           mlflow.source.name
+¦   ¦   ¦           mlflow.source.type
+¦   ¦   ¦           mlflow.user
+¦   ¦   ¦           
+¦   ¦   +---bd7b58397b6f4fc08408dffb97ac378e
+¦   ¦   ¦   ¦   meta.yaml
+¦   ¦   ¦   ¦   
+¦   ¦   ¦   +---artifacts
+¦   ¦   ¦   ¦       RandomForestClassifier_cm.png
+¦   ¦   ¦   ¦       RandomForestClassifier_report.json
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---metrics
+¦   ¦   ¦   ¦       Accuracy
+¦   ¦   ¦   ¦       AUC
+¦   ¦   ¦   ¦       F1_Score
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---params
+¦   ¦   ¦   ¦       bootstrap
+¦   ¦   ¦   ¦       cacheNodeIds
+¦   ¦   ¦   ¦       checkpointInterval
+¦   ¦   ¦   ¦       featuresCol
+¦   ¦   ¦   ¦       featureSubsetStrategy
+¦   ¦   ¦   ¦       impurity
+¦   ¦   ¦   ¦       labelCol
+¦   ¦   ¦   ¦       leafCol
+¦   ¦   ¦   ¦       maxBins
+¦   ¦   ¦   ¦       maxDepth
+¦   ¦   ¦   ¦       maxMemoryInMB
+¦   ¦   ¦   ¦       minInfoGain
+¦   ¦   ¦   ¦       minInstancesPerNode
+¦   ¦   ¦   ¦       minWeightFractionPerNode
+¦   ¦   ¦   ¦       numTrees
+¦   ¦   ¦   ¦       predictionCol
+¦   ¦   ¦   ¦       probabilityCol
+¦   ¦   ¦   ¦       rawPredictionCol
+¦   ¦   ¦   ¦       seed
+¦   ¦   ¦   ¦       subsamplingRate
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---tags
+¦   ¦   ¦           mlflow.runName
+¦   ¦   ¦           mlflow.source.name
+¦   ¦   ¦           mlflow.source.type
+¦   ¦   ¦           mlflow.user
+¦   ¦   ¦           
+¦   ¦   +---cedad17704b64593a78caf045e9b88e7
+¦   ¦   ¦   ¦   meta.yaml
+¦   ¦   ¦   ¦   
+¦   ¦   ¦   +---artifacts
+¦   ¦   ¦   ¦   +---spark-model
+¦   ¦   ¦   ¦       ¦   conda.yaml
+¦   ¦   ¦   ¦       ¦   MLmodel
+¦   ¦   ¦   ¦       ¦   python_env.yaml
+¦   ¦   ¦   ¦       ¦   registered_model_meta
+¦   ¦   ¦   ¦       ¦   requirements.txt
+¦   ¦   ¦   ¦       ¦   
+¦   ¦   ¦   ¦       +---metadata
+¦   ¦   ¦   ¦       ¦       conda.yaml
+¦   ¦   ¦   ¦       ¦       MLmodel
+¦   ¦   ¦   ¦       ¦       python_env.yaml
+¦   ¦   ¦   ¦       ¦       requirements.txt
+¦   ¦   ¦   ¦       ¦       
+¦   ¦   ¦   ¦       +---sparkml
+¦   ¦   ¦   ¦           +---metadata
+¦   ¦   ¦   ¦           ¦       .part-00000.crc
+¦   ¦   ¦   ¦           ¦       ._SUCCESS.crc
+¦   ¦   ¦   ¦           ¦       part-00000
+¦   ¦   ¦   ¦           ¦       _SUCCESS
+¦   ¦   ¦   ¦           ¦       
+¦   ¦   ¦   ¦           +---stages
+¦   ¦   ¦   ¦               +---0_PipelineModel_6f3df1ef681f
+¦   ¦   ¦   ¦               ¦   +---metadata
+¦   ¦   ¦   ¦               ¦   ¦       .part-00000.crc
+¦   ¦   ¦   ¦               ¦   ¦       ._SUCCESS.crc
+¦   ¦   ¦   ¦               ¦   ¦       part-00000
+¦   ¦   ¦   ¦               ¦   ¦       _SUCCESS
+¦   ¦   ¦   ¦               ¦   ¦       
+¦   ¦   ¦   ¦               ¦   +---stages
+¦   ¦   ¦   ¦               ¦       +---0_MasterColumnCreator_bc23560a7692
+¦   ¦   ¦   ¦               ¦       ¦   +---metadata
+¦   ¦   ¦   ¦               ¦       +---1_Imputer_a097bccfcbe6
+¦   ¦   ¦   ¦               ¦       ¦   +---data
+¦   ¦   ¦   ¦               ¦       ¦   ¦       ._SUCCESS.crc
+¦   ¦   ¦   ¦               ¦       ¦   ¦       _SUCCESS
+¦   ¦   ¦   ¦               ¦       ¦   ¦       
+¦   ¦   ¦   ¦               ¦       ¦   +---metadata
+¦   ¦   ¦   ¦               ¦       ¦           .part-00000.crc
+¦   ¦   ¦   ¦               ¦       ¦           ._SUCCESS.crc
+¦   ¦   ¦   ¦               ¦       ¦           part-00000
+¦   ¦   ¦   ¦               ¦       ¦           _SUCCESS
+¦   ¦   ¦   ¦               ¦       ¦           
+¦   ¦   ¦   ¦               ¦       +---2_Imputer_f8376c954406
+¦   ¦   ¦   ¦               ¦       ¦   +---data
+¦   ¦   ¦   ¦               ¦       ¦   ¦       ._SUCCESS.crc
+¦   ¦   ¦   ¦               ¦       ¦   ¦       _SUCCESS
+¦   ¦   ¦   ¦               ¦       ¦   ¦       
+¦   ¦   ¦   ¦               ¦       ¦   +---metadata
+¦   ¦   ¦   ¦               ¦       ¦           .part-00000.crc
+¦   ¦   ¦   ¦               ¦       ¦           ._SUCCESS.crc
+¦   ¦   ¦   ¦               ¦       ¦           part-00000
+¦   ¦   ¦   ¦               ¦       ¦           _SUCCESS
+¦   ¦   ¦   ¦               ¦       ¦           
+¦   ¦   ¦   ¦               ¦       +---3_AgeImputerModel_e5d7db20b9e0
+¦   ¦   ¦   ¦               ¦       ¦   +---metadata
+¦   ¦   ¦   ¦               ¦       ¦           _SUCCESS
+¦   ¦   ¦   ¦               ¦       ¦           
+¦   ¦   ¦   ¦               ¦       +---4_GenderFiller_d4a9fb24185f
+¦   ¦   ¦   ¦               ¦       ¦   +---metadata
+¦   ¦   ¦   ¦               ¦       ¦           part-00000
+¦   ¦   ¦   ¦               ¦       ¦           _SUCCESS
+¦   ¦   ¦   ¦               ¦       ¦           
+¦   ¦   ¦   ¦               ¦       +---5_ColumnDropper_f2d66555186f
+¦   ¦   ¦   ¦               ¦       ¦   +---metadata
+¦   ¦   ¦   ¦               ¦       ¦           part-00000
+¦   ¦   ¦   ¦               ¦       ¦           _SUCCESS
+¦   ¦   ¦   ¦               ¦       ¦           
+¦   ¦   ¦   ¦               ¦       +---6_StringIndexer_303b123f8e41
+¦   ¦   ¦   ¦               ¦       ¦   +---data
+¦   ¦   ¦   ¦               ¦       ¦   ¦       ._SUCCESS.crc
+¦   ¦   ¦   ¦               ¦       ¦   ¦       _SUCCESS
+¦   ¦   ¦   ¦               ¦       ¦   ¦       
+¦   ¦   ¦   ¦               ¦       ¦   +---metadata
+¦   ¦   ¦   ¦               ¦       ¦           part-00000
+¦   ¦   ¦   ¦               ¦       ¦           _SUCCESS
+¦   ¦   ¦   ¦               ¦       ¦           
+¦   ¦   ¦   ¦               ¦       +---7_OneHotEncoder_b01cc6b50751
+¦   ¦   ¦   ¦               ¦       ¦   +---data
+¦   ¦   ¦   ¦               ¦       ¦   ¦       ._SUCCESS.crc
+¦   ¦   ¦   ¦               ¦       ¦   ¦       _SUCCESS
+¦   ¦   ¦   ¦               ¦       ¦   ¦       
+¦   ¦   ¦   ¦               ¦       ¦   +---metadata
+¦   ¦   ¦   ¦               ¦       ¦           part-00000
+¦   ¦   ¦   ¦               ¦       ¦           _SUCCESS
+¦   ¦   ¦   ¦               ¦       ¦           
+¦   ¦   ¦   ¦               ¦       +---8_VectorAssembler_e2f06e4eb4ef
+¦   ¦   ¦   ¦               ¦           +---metadata
+¦   ¦   ¦   ¦               ¦                   _SUCCESS
+¦   ¦   ¦   ¦               ¦                   
+¦   ¦   ¦   ¦               +---1_RandomForestClassifier_193b65e32881
+¦   ¦   ¦   ¦                   +---data
+¦   ¦   ¦   ¦                   ¦       ._SUCCESS.crc
+¦   ¦   ¦   ¦                   ¦       _SUCCESS
+¦   ¦   ¦   ¦                   ¦       
+¦   ¦   ¦   ¦                   +---metadata
+¦   ¦   ¦   ¦                   ¦       .part-00000.crc
+¦   ¦   ¦   ¦                   ¦       ._SUCCESS.crc
+¦   ¦   ¦   ¦                   ¦       part-00000
+¦   ¦   ¦   ¦                   ¦       _SUCCESS
+¦   ¦   ¦   ¦                   ¦       
+¦   ¦   ¦   ¦                   +---treesMetadata
+¦   ¦   ¦   ¦                           ._SUCCESS.crc
+¦   ¦   ¦   ¦                           _SUCCESS
+¦   ¦   ¦   ¦                           
+¦   ¦   ¦   +---metrics
+¦   ¦   ¦   ¦       Accuracy
+¦   ¦   ¦   ¦       AUC
+¦   ¦   ¦   ¦       F1_Score
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---params
+¦   ¦   ¦   +---tags
+¦   ¦   ¦           mlflow.log-model.history
+¦   ¦   ¦           mlflow.runName
+¦   ¦   ¦           mlflow.source.name
+¦   ¦   ¦           mlflow.source.type
+¦   ¦   ¦           mlflow.user
+¦   ¦   ¦           
+¦   ¦   +---d35189cd14404a14983bcc430bd20bd1
+¦   ¦   ¦   ¦   meta.yaml
+¦   ¦   ¦   ¦   
+¦   ¦   ¦   +---artifacts
+¦   ¦   ¦   ¦       LogisticRegression_cm.png
+¦   ¦   ¦   ¦       LogisticRegression_report.json
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---metrics
+¦   ¦   ¦   ¦       Accuracy
+¦   ¦   ¦   ¦       AUC
+¦   ¦   ¦   ¦       F1_Score
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---params
+¦   ¦   ¦   ¦       aggregationDepth
+¦   ¦   ¦   ¦       elasticNetParam
+¦   ¦   ¦   ¦       family
+¦   ¦   ¦   ¦       featuresCol
+¦   ¦   ¦   ¦       fitIntercept
+¦   ¦   ¦   ¦       labelCol
+¦   ¦   ¦   ¦       maxBlockSizeInMB
+¦   ¦   ¦   ¦       maxIter
+¦   ¦   ¦   ¦       predictionCol
+¦   ¦   ¦   ¦       probabilityCol
+¦   ¦   ¦   ¦       rawPredictionCol
+¦   ¦   ¦   ¦       regParam
+¦   ¦   ¦   ¦       standardization
+¦   ¦   ¦   ¦       threshold
+¦   ¦   ¦   ¦       tol
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---tags
+¦   ¦   ¦           mlflow.runName
+¦   ¦   ¦           mlflow.source.name
+¦   ¦   ¦           mlflow.source.type
+¦   ¦   ¦           mlflow.user
+¦   ¦   ¦           
+¦   ¦   +---d3e9ce3159ed4ee9a2e37637066f079f
+¦   ¦   ¦   ¦   meta.yaml
+¦   ¦   ¦   ¦   
+¦   ¦   ¦   +---artifacts
+¦   ¦   ¦   ¦       NaiveBayes_cm.png
+¦   ¦   ¦   ¦       NaiveBayes_report.json
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---metrics
+¦   ¦   ¦   ¦       Accuracy
+¦   ¦   ¦   ¦       AUC
+¦   ¦   ¦   ¦       F1_Score
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---params
+¦   ¦   ¦   ¦       featuresCol
+¦   ¦   ¦   ¦       labelCol
+¦   ¦   ¦   ¦       modelType
+¦   ¦   ¦   ¦       predictionCol
+¦   ¦   ¦   ¦       probabilityCol
+¦   ¦   ¦   ¦       rawPredictionCol
+¦   ¦   ¦   ¦       smoothing
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---tags
+¦   ¦   ¦           mlflow.runName
+¦   ¦   ¦           mlflow.source.name
+¦   ¦   ¦           mlflow.source.type
+¦   ¦   ¦           mlflow.user
+¦   ¦   ¦           
+¦   ¦   +---d9c675c42c514ac6859af4af9cddd868
+¦   ¦   ¦   ¦   meta.yaml
+¦   ¦   ¦   ¦   
+¦   ¦   ¦   +---artifacts
+¦   ¦   ¦   ¦       GBTClassifier_cm.png
+¦   ¦   ¦   ¦       GBTClassifier_report.json
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---metrics
+¦   ¦   ¦   ¦       Accuracy
+¦   ¦   ¦   ¦       AUC
+¦   ¦   ¦   ¦       F1_Score
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---params
+¦   ¦   ¦   ¦       cacheNodeIds
+¦   ¦   ¦   ¦       checkpointInterval
+¦   ¦   ¦   ¦       featuresCol
+¦   ¦   ¦   ¦       featureSubsetStrategy
+¦   ¦   ¦   ¦       impurity
+¦   ¦   ¦   ¦       labelCol
+¦   ¦   ¦   ¦       leafCol
+¦   ¦   ¦   ¦       lossType
+¦   ¦   ¦   ¦       maxBins
+¦   ¦   ¦   ¦       maxDepth
+¦   ¦   ¦   ¦       maxIter
+¦   ¦   ¦   ¦       maxMemoryInMB
+¦   ¦   ¦   ¦       minInfoGain
+¦   ¦   ¦   ¦       minInstancesPerNode
+¦   ¦   ¦   ¦       minWeightFractionPerNode
+¦   ¦   ¦   ¦       predictionCol
+¦   ¦   ¦   ¦       probabilityCol
+¦   ¦   ¦   ¦       rawPredictionCol
+¦   ¦   ¦   ¦       seed
+¦   ¦   ¦   ¦       stepSize
+¦   ¦   ¦   ¦       subsamplingRate
+¦   ¦   ¦   ¦       validationTol
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---tags
+¦   ¦   ¦           mlflow.runName
+¦   ¦   ¦           mlflow.source.name
+¦   ¦   ¦           mlflow.source.type
+¦   ¦   ¦           mlflow.user
+¦   ¦   ¦           
+¦   ¦   +---dfa5fde5c58748ddbb1033864a852e3e
+¦   ¦       ¦   meta.yaml
+¦   ¦       ¦   
+¦   ¦       +---artifacts
+¦   ¦       ¦   +---spark-model
+¦   ¦       ¦       ¦   conda.yaml
+¦   ¦       ¦       ¦   MLmodel
+¦   ¦       ¦       ¦   python_env.yaml
+¦   ¦       ¦       ¦   registered_model_meta
+¦   ¦       ¦       ¦   requirements.txt
+¦   ¦       ¦       ¦   
+¦   ¦       ¦       +---metadata
+¦   ¦       ¦       ¦       conda.yaml
+¦   ¦       ¦       ¦       MLmodel
+¦   ¦       ¦       ¦       python_env.yaml
+¦   ¦       ¦       ¦       requirements.txt
+¦   ¦       ¦       ¦       
+¦   ¦       ¦       +---sparkml
+¦   ¦       ¦           +---metadata
+¦   ¦       ¦           ¦       .part-00000.crc
+¦   ¦       ¦           ¦       ._SUCCESS.crc
+¦   ¦       ¦           ¦       part-00000
+¦   ¦       ¦           ¦       _SUCCESS
+¦   ¦       ¦           ¦       
+¦   ¦       ¦           +---stages
+¦   ¦       ¦               +---0_PipelineModel_f6e29cd34258
+¦   ¦       ¦               ¦   +---metadata
+¦   ¦       ¦               ¦   ¦       .part-00000.crc
+¦   ¦       ¦               ¦   ¦       ._SUCCESS.crc
+¦   ¦       ¦               ¦   ¦       part-00000
+¦   ¦       ¦               ¦   ¦       _SUCCESS
+¦   ¦       ¦               ¦   ¦       
+¦   ¦       ¦               ¦   +---stages
+¦   ¦       ¦               ¦       +---0_MasterColumnCreator_f6f50c9ed408
+¦   ¦       ¦               ¦       ¦   +---metadata
+¦   ¦       ¦               ¦       +---1_Imputer_a362fef57f30
+¦   ¦       ¦               ¦       ¦   +---data
+¦   ¦       ¦               ¦       ¦   ¦       ._SUCCESS.crc
+¦   ¦       ¦               ¦       ¦   ¦       _SUCCESS
+¦   ¦       ¦               ¦       ¦   ¦       
+¦   ¦       ¦               ¦       ¦   +---metadata
+¦   ¦       ¦               ¦       ¦           .part-00000.crc
+¦   ¦       ¦               ¦       ¦           ._SUCCESS.crc
+¦   ¦       ¦               ¦       ¦           part-00000
+¦   ¦       ¦               ¦       ¦           _SUCCESS
+¦   ¦       ¦               ¦       ¦           
+¦   ¦       ¦               ¦       +---2_Imputer_1160d1d0945c
+¦   ¦       ¦               ¦       ¦   +---data
+¦   ¦       ¦               ¦       ¦   ¦       ._SUCCESS.crc
+¦   ¦       ¦               ¦       ¦   ¦       _SUCCESS
+¦   ¦       ¦               ¦       ¦   ¦       
+¦   ¦       ¦               ¦       ¦   +---metadata
+¦   ¦       ¦               ¦       ¦           .part-00000.crc
+¦   ¦       ¦               ¦       ¦           ._SUCCESS.crc
+¦   ¦       ¦               ¦       ¦           part-00000
+¦   ¦       ¦               ¦       ¦           _SUCCESS
+¦   ¦       ¦               ¦       ¦           
+¦   ¦       ¦               ¦       +---3_AgeImputerModel_dac4a321f404
+¦   ¦       ¦               ¦       ¦   +---metadata
+¦   ¦       ¦               ¦       ¦           _SUCCESS
+¦   ¦       ¦               ¦       ¦           
+¦   ¦       ¦               ¦       +---4_GenderFiller_9a2284aec3db
+¦   ¦       ¦               ¦       ¦   +---metadata
+¦   ¦       ¦               ¦       ¦           part-00000
+¦   ¦       ¦               ¦       ¦           _SUCCESS
+¦   ¦       ¦               ¦       ¦           
+¦   ¦       ¦               ¦       +---5_ColumnDropper_9651444e35a4
+¦   ¦       ¦               ¦       ¦   +---metadata
+¦   ¦       ¦               ¦       ¦           part-00000
+¦   ¦       ¦               ¦       ¦           _SUCCESS
+¦   ¦       ¦               ¦       ¦           
+¦   ¦       ¦               ¦       +---6_StringIndexer_0b9bb35c7f23
+¦   ¦       ¦               ¦       ¦   +---data
+¦   ¦       ¦               ¦       ¦   ¦       ._SUCCESS.crc
+¦   ¦       ¦               ¦       ¦   ¦       _SUCCESS
+¦   ¦       ¦               ¦       ¦   ¦       
+¦   ¦       ¦               ¦       ¦   +---metadata
+¦   ¦       ¦               ¦       ¦           part-00000
+¦   ¦       ¦               ¦       ¦           _SUCCESS
+¦   ¦       ¦               ¦       ¦           
+¦   ¦       ¦               ¦       +---7_OneHotEncoder_0d61b3fa7754
+¦   ¦       ¦               ¦       ¦   +---data
+¦   ¦       ¦               ¦       ¦   ¦       ._SUCCESS.crc
+¦   ¦       ¦               ¦       ¦   ¦       _SUCCESS
+¦   ¦       ¦               ¦       ¦   ¦       
+¦   ¦       ¦               ¦       ¦   +---metadata
+¦   ¦       ¦               ¦       ¦           part-00000
+¦   ¦       ¦               ¦       ¦           _SUCCESS
+¦   ¦       ¦               ¦       ¦           
+¦   ¦       ¦               ¦       +---8_VectorAssembler_1fb44bbcfe31
+¦   ¦       ¦               ¦           +---metadata
+¦   ¦       ¦               ¦                   _SUCCESS
+¦   ¦       ¦               ¦                   
+¦   ¦       ¦               +---1_RandomForestClassifier_158248b4a7be
+¦   ¦       ¦                   +---data
+¦   ¦       ¦                   ¦       ._SUCCESS.crc
+¦   ¦       ¦                   ¦       _SUCCESS
+¦   ¦       ¦                   ¦       
+¦   ¦       ¦                   +---metadata
+¦   ¦       ¦                   ¦       .part-00000.crc
+¦   ¦       ¦                   ¦       ._SUCCESS.crc
+¦   ¦       ¦                   ¦       part-00000
+¦   ¦       ¦                   ¦       _SUCCESS
+¦   ¦       ¦                   ¦       
+¦   ¦       ¦                   +---treesMetadata
+¦   ¦       ¦                           ._SUCCESS.crc
+¦   ¦       ¦                           _SUCCESS
+¦   ¦       ¦                           
+¦   ¦       +---metrics
+¦   ¦       ¦       Accuracy
+¦   ¦       ¦       AUC
+¦   ¦       ¦       F1_Score
+¦   ¦       ¦       
+¦   ¦       +---params
+¦   ¦       +---tags
+¦   ¦               mlflow.log-model.history
+¦   ¦               mlflow.runName
+¦   ¦               mlflow.source.name
+¦   ¦               mlflow.source.type
+¦   ¦               mlflow.user
+¦   ¦               
+¦   +---models
+¦       +---TitanicClassifier
+¦           ¦   meta.yaml
+¦           ¦   
+¦           +---version-1
+¦           ¦       meta.yaml
+¦           ¦       
+¦           +---version-2
+¦           ¦   ¦   meta.yaml
+¦           ¦   ¦   
+¦           ¦   +---tags
+¦           ¦           Accuracy
+¦           ¦           AUC
+¦           ¦           F1_Score
+¦           ¦           
+¦           +---version-3
+¦           ¦   ¦   meta.yaml
+¦           ¦   ¦   
+¦           ¦   +---tags
+¦           ¦           Accuracy
+¦           ¦           AUC
+¦           ¦           F1_Score
+¦           ¦           
+¦           +---version-4
+¦           ¦   ¦   meta.yaml
+¦           ¦   ¦   
+¦           ¦   +---tags
+¦           ¦           Accuracy
+¦           ¦           AUC
+¦           ¦           F1_Score
+¦           ¦           
+¦           +---version-5
+¦               ¦   meta.yaml
+¦               ¦   
+¦               +---tags
+¦                       Accuracy
+¦                       AUC
+¦                       F1_Score
+¦                       
++---training
+¦   ¦   deployment.py
+¦   ¦   preprocess.py
+¦   ¦   spark_session.py
+¦   ¦   training.py
+¦   ¦   utils.py
+¦   ¦   __init__.py
+¦   ¦   
+¦   +---__pycache__
+¦           delete.cpython-37.pyc
+¦           deployment.cpython-310.pyc
+¦           deployment.cpython-37.pyc
+¦           preprocess.cpython-310.pyc
+¦           preprocess.cpython-37.pyc
+¦           spark_session.cpython-310.pyc
+¦           spark_session.cpython-37.pyc
+¦           training.cpython-310.pyc
+¦           training.cpython-37.pyc
+¦           utils.cpython-310.pyc
+¦           utils.cpython-37.pyc
+¦           __init__.cpython-310.pyc
+¦           
++---__pycache__
+        main.cpython-310.pyc
+        test.cpython-310.pyc
+        

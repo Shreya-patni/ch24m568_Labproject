@@ -1,0 +1,7 @@
+data:
+  repo_url: "https://github.com/Shreya-patni/ch24m568_Labproject"
+  rev: "v1"
+  path: "train.csv"
+
+paths:
+  reference_profile: "deployment/reference_profile.json"

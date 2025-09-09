@@ -1,0 +1,27 @@
+# --- MLOps ignores ---
+mlruns/
+deployment/model/
+**/__pycache__/
+**/.ipynb_checkpoints/
+**/.pytest_cache/
+**/*.crc
+**/*.parquet
+.env
+.venv/
+.DS_Store
+# DVC keeps raw data out of Git; its .dvc files are tracked instead
+data/
+!data/**/*.dvc
+mlruns/
+deployment/model/
+**/__pycache__/
+**/.ipynb_checkpoints/
+**/.pytest_cache/
+**/*.crc
+**/*.parquet
+.env
+.venv/
+.DS_Store
+data/
+!data/**/*.dvc
+!data/*.dvc

@@ -1,0 +1,1 @@
+{"PassengerId": 1309, "Pclass": 3, "Name": "Peter, Master. Michael J", "Sex": "male", "Age": null, "SibSp": 1, "Parch": 1, "Ticket": "2668", "Fare": 22.3583, "Cabin": null, "Embarked": "C"}
